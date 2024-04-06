@@ -4,7 +4,7 @@ const App = () =>{
   return (
     <>
     <p>Hello world</p>
-    <p>Nurmuhammet 2000</p>
+    <p>Nurmuhammet core</p>
     <p>Kanykei</p>
     </>
   )
