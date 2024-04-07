@@ -6,6 +6,7 @@ const App = () =>{
     <p>Hello world</p>
     <p>Nurmuhammet</p>
     <p>Kanykei</p>
+    <h1>asdasd</h1>
     </>
   )
 }
