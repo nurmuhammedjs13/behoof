@@ -1,14 +1,22 @@
-import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const App = () =>{
-  return (
-    <>
-    <p>Hello world</p>
-    <p>Nurmuhammet</p>
-    <p>Kanykei</p>
-    <h1>asdasd</h1>
-    </>
-  )
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <div>Hello world!</div>,
+    },
+    {
+        path: "/1",
+        element: <div>dad world!</div>,
+    },
+]);
+
+function App() {
+    return (
+        <>
+            <RouterProvider router={router} />
+        </>
+    );
 }
 
 export default App;
