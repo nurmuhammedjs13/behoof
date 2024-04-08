@@ -1,9 +1,9 @@
-import React from "react";
 import vk from "../../assets/VK.png";
 import insta from "../../assets/Inst.png";
 import tt from "../../assets/TT.png";
 import tg from "../../assets/TG.png";
 import yt from "../../assets/YT.png";
+import logo from "../../assets/logo 1.png";
 
 function Footer() {
   return (
@@ -12,10 +12,7 @@ function Footer() {
         <div className="container">
           <div className="cards">
             <div className="cards__card">
-              <div className="cards__logo">
-                <a href=""></a>
-                <h3 className="cards__logo-text">Behoof</h3>
-              </div>
+              <img src={logo} alt="" />
               <div className="cards__info">
                 <p className="cards__info-logo">Мы в соц сетях</p>
                 <div className="cards__info__icons">
@@ -37,8 +34,8 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="cards__card1">
-              <h3 className="card1-logo">Пользователю</h3>
+            <div className="cards__card">
+              <h3 className="card-logo">Пользователю</h3>
               <a className="" href="#">
                 Связаться с нами
               </a>
@@ -55,7 +52,7 @@ function Footer() {
                 Пользовательское соглашение
               </a>
             </div>
-            <div className="cards__card1">
+            <div className="cards__card">
               <h3 className="card1-logo">Популярные категории</h3>
               <link>Смартфоны</link>
               <a className="" href="#">
@@ -71,7 +68,7 @@ function Footer() {
                 Ноутбуки
               </a>
             </div>
-            <div className="cards__card1">
+            <div className="cards__card">
               <h3 className="card1-logo">Команда Behoof</h3>
 
               <a className="" href="#">
