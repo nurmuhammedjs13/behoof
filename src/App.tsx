@@ -1,14 +1,34 @@
-import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/home/home";
+import Profile from "./pages/profile/profile";
+import Differences from "./pages/differences/differences";
+import Favorites from "./pages/favorites/favorites";
 
-const App = () => {
-  return (
-    <>
-      <p>Hello world</p>
-      <p>Nurmuhammet</p>
-      <p>Kanykei</p>
-      <p>Tahmina</p>
-    </>
-  );
-};
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Home />,
+    },
+    {
+        path: "/profile",
+        element: <Profile />,
+    },
+    {
+        path: "/differences",
+        element: <Differences />,
+    },
+    {
+        path: "/favorites",
+        element: <Favorites />,
+    },
+]);
+
+function App() {
+    return (
+        <>
+            <RouterProvider router={router} />
+        </>
+    );
+}
 
 export default App;
