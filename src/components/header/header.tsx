@@ -4,6 +4,8 @@ import "./header.css";
 import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
+import { Link } from "react-router-dom";
+
 
 function Header() {
     return (
@@ -42,10 +44,14 @@ function Header() {
                                 <button className="header_nav-button">
                                     <img src={HeaderButtonChart} alt="" />
                                 </button>
-                                <button className="header_nav-button">
+                                <Link to={} className="header_nav-button">
                                     <img src={HeaderButtonFrame} alt="" />
-                                </button>
+                                </Link>
                             </div>
+                        </div>
+                        <div className="header_info">
+                            <div className="header_info_left_block"></div>
+                            <div className="header_info_right_block"></div>
                         </div>
                     </div>
                 </div>
