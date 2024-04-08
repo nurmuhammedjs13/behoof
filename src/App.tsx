@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const App = () =>{
+const App = () => {
   return (
     <>
-    <p>Hello world</p>
-    <p>Nurmuhammet</p>
-    <p>Kanykei</p>
-    <p>Tahmina</p>
+      <p>Hello world</p>
+      <p>Nurmuhammet</p>
+      <p>Kanykei</p>
+      <p>Tahmina</p>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
