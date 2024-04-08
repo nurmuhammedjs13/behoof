@@ -1,14 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const App = () =>{
+function App() {
   return (
-    <>
-    <p>Hello world</p>
-    <p>Nurmuhammet smooth</p>
-    <p>Nurmuhammet star</p>
-    <p>Kanykei</p>
-    </>
+    <div>App</div>
   )
 }
 
-export default App;
+export default App
