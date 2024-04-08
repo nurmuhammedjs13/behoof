@@ -1,11 +1,9 @@
-import React from "react";
 import headerLogo from "../../assets/header-logo.png";
 import "./header.css";
 import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
 import { Link } from "react-router-dom";
-
 
 function Header() {
     return (
@@ -38,13 +36,22 @@ function Header() {
                                 />
                             </div>
                             <div className="header_nav">
-                                <button className="header_nav-button">
+                                <Link
+                                    to={"/favorites"}
+                                    className="header_nav-button"
+                                >
                                     <img src={HeaderButtonHeart} alt="" />
-                                </button>
-                                <button className="header_nav-button">
+                                </Link>
+                                <Link
+                                    to={"/differences"}
+                                    className="header_nav-button"
+                                >
                                     <img src={HeaderButtonChart} alt="" />
-                                </button>
-                                <Link to={} className="header_nav-button">
+                                </Link>
+                                <Link
+                                    to={"/profile"}
+                                    className="header_nav-button"
+                                >
                                     <img src={HeaderButtonFrame} alt="" />
                                 </Link>
                             </div>
