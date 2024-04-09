@@ -29,3 +29,10 @@ a {
   display: flex;
   align-items: center;
 }
+
+.card_list {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

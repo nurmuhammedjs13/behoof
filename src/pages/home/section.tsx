@@ -18,22 +18,22 @@ function Section() {
           </a>
           <div className="Cards">
             <div className="Card">
-              <img src={Apple} alt="" className="card_list" />
-              {/* <h3>Смартфоны</h3> */}
-              <img src={MacBook} alt="" className="card_list" />
-              {/* <h3>Ноутбуки</h3> */}
-              <img src={Ipad} alt="" className="card_list" />
-              {/* <h3>Планшеты</h3> */}
-              <img src={watch} alt="" className="card_list" />
-              {/* <h3>Умные часы</h3> */}
-              <img src={consoles} alt="" className="card_list" />
-              {/* <h3>Игровые приставки</h3> */}
-              <img src={headphones} alt="" className="card_list" />
-              {/* <h3>Наушники</h3> */}
-              <img src={columns} alt="" className="card_list" />
-              {/* <h3>Портативные колонки</h3> */}
-              <img src={accessories} alt="" className="card_list" />
-              {/* <h3>Аксессуары</h3> */}
+              <img src={Apple} alt="" />
+              <h3 className="card_list">Смартфоны</h3>
+              <img src={MacBook} alt="" />
+              <h3 className="card_list">Ноутбуки</h3>
+              <img src={Ipad} alt="" />
+              <h3 className="card_list">Планшеты</h3>
+              <img src={watch} alt="" />
+              <h3 className="card_list">Умные часы</h3>
+              <img src={consoles} alt="" />
+              <h3 className="card_list">Игровые приставки</h3>
+              <img src={headphones} alt="" />
+              <h3 className="card_list">Наушники</h3>
+              <img src={columns} alt="" />
+              <h3 className="card_list">Портативные колонки</h3>
+              <img src={accessories} alt="" />
+              <h3 className="card_list">Аксессуары</h3>
             </div>
           </div>
         </div>
