@@ -24,6 +24,6 @@ p {
 @media screen and (max-width: 375px) {
   .container {
     margin: 0;
-    padding: 0 50px;
+    padding: 0 30px;
   }
 }

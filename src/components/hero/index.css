@@ -136,6 +136,7 @@
   .hero {
     height: 1600px;
   }
+
 }
 @media screen and (max-width: 375px) {
   .container {
