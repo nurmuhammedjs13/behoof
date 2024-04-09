@@ -1,24 +1,34 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home/home";
+import Profile from "./pages/profile/profile";
+import Differences from "./pages/differences/differences";
+import Favorites from "./pages/favorites/favorites";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <div>Hello world!</div>,
+        element: <Home />,
     },
     {
-        path: "/1",
-        element: <div>dad world!</div>,
+        path: "/profile",
+        element: <Profile />,
+    },
+    {
+        path: "/differences",
+        element: <Differences />,
+    },
+    {
+        path: "/favorites",
+        element: <Favorites />,
     },
 ]);
 
 function App() {
     return (
         <>
-        <Home/>
             <RouterProvider router={router} />
         </>
     );
 }
 
-export default App;
+export default App
