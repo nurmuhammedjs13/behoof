@@ -56,3 +56,14 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 375px) {
+    .header_info {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_center_info_search_content-input {
+        padding: 10px 40px;
+        border-radius: 10px;
+    }
+    
+}

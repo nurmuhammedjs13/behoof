@@ -3,9 +3,7 @@ import "./header.css";
 import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
-
 import { Link } from "react-router-dom";
-// import Header_content from "";
 
 function Header() {
     return (
@@ -59,7 +57,6 @@ function Header() {
                                     <img src={HeaderButtonFrame} alt="" />
                                 </Link>
                             </div>
-                            {/* <Header_content/> */}
                         </div>
                     </div>
                 </div>

@@ -34,6 +34,9 @@
     background: #f2f5f9;
     padding: 0 0 0 10px;
     border-radius: 0 10px 10px 0;
+    width: 576px; /* начальная ширина */
+    transition: width 0.5s; /* плавный переход ширины за 0.5 секунды */
+    box-sizing: border-box; /* учитываем padding в общей ширине элемента */
 }
 
 .header_logo-text {
@@ -139,31 +142,32 @@
     font-size: 20px;
 }
 
-
-
 @media screen and (max-width: 375px) {
     .header_info {
         display: flex;
         flex-direction: column;
     }
 
-    .header_nav{
+    .header_nav {
         visibility: hidden;
     }
-    .header_center_info_search_catalog{
+    .header_center_info_search_catalog {
         visibility: hidden;
         box-sizing: none;
         display: none;
     }
-    .header_content_info{
+    .header_content_info {
         flex-direction: column;
     }
-    .header_logo_content{
+    .header_logo_content {
         flex-direction: column;
     }
-.header_center_info_search_content-input{
-    padding: 10px 40px;
-    border-radius: 10px;
-}
-   
+    .header_center_info_search_content-input {
+        padding: 10px 40px;
+        border-radius: 10px;
+    }
+    .header_center_info_search_content-input {
+        width: 150px; /* новая ширина для маленьких экранов */
+    }
+
 }
