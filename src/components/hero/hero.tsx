@@ -1,12 +1,12 @@
-import React from "react";
 import besh from "../../assets/Number.png";
-import otuz from "../../assets/Number (1).png";
-import uchjuz from "../../assets/Number (2).png";
-import segiz from "../../assets/Number (3).png";
+import otuz from "../../assets/number1.png";
+import uchjuz from "../../assets/Number2.png";
+import segiz from "../../assets/Number3.png";
 import Apple from "../../assets/_Group_.png";
 import google from "../../assets/logo.png";
 import iphone from "../../assets/iPhone.png";
 import miniIp from "../../assets/MiniiPhone.png";
+import "../../components/hero/index.css";
 
 function Hero() {
   return (
@@ -49,29 +49,31 @@ function Hero() {
             </div>
           </div>
           <div className="warrior">
-            <div className="warrior__card">
-              <h3 className="warrior__card-text">Экономьте</h3>
-              <h3 className="warrior__card-tekst">свое время и получайте</h3>
-              <h3 className="warrior__card-text">максимум</h3>
-              <h3 className="warrior__card-tekst">от ежедневных покупок</h3>
-              <div className="warrior__card__icons">
-                <div className="warrior__card__icons__icon">
-                  <img src={google} alt="" />
-                  <p className="warrior__card__icons__icon-text">
-                    Доступно в <br /> google Play
-                  </p>
-                </div>
-                <div className="warrior__card__icons__icon">
-                  <img src={Apple} alt="" />
-                  <p className="warrior__card__icons__icon-text">
-                    Загрузите в <br /> App Store
-                  </p>
+            <div className="warrior__cards">
+              <div className="warrior__cards__card">
+                <h3 className="warrior__card-text">Экономьте</h3>
+                <h3 className="warrior__card-tekst">свое время и получайте</h3>
+                <h3 className="warrior__card-text">максимум</h3>
+                <h3 className="warrior__card-tekst">от ежедневных покупок</h3>
+                <div className="warrior__card__icons">
+                  <div className="warrior__card__icons__icon">
+                    <img src={google} alt="" />
+                    <a className="warrior__card__icons__icon-text" href="">
+                      Доступно в <br /> google Play
+                    </a>
+                  </div>
+                  <div className="warrior__card__icons__icon">
+                    <img src={Apple} alt="" />
+                    <a className="warrior__card__icons__icon-text" href="">
+                      Загрузите в <br /> App Store
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="warrior__card">
-              <img src={iphone} alt="" />
-              <img src={miniIp} alt="" />
+              <div className="warrior__card">
+                <img className="warrior-img" src={iphone} alt="" />
+                <img className="warrior-img1" src={miniIp} alt="" />
+              </div>
             </div>
           </div>
         </div>
