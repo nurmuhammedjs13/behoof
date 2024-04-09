@@ -39,6 +39,7 @@
 }
 
 .header_center_info_search_content-input {
+<<<<<<< HEAD
   max-width: 200px;
   max-height: 30px;
 }
@@ -49,6 +50,23 @@
   font-weight: 700;
   line-height: 42.07px;
   text-align: left;
+=======
+    border: none;
+    padding: 18px 200px;
+    border-radius: 0px 8px 8px 0px;
+    background: #f2f5f9;
+    border-radius: 0 10px 10px 0;
+}
+
+.header_logo-text {
+    font-family: Verdana;
+    font-size: 34.62px;
+    font-weight: 700;
+    line-height: 42.07px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+>>>>>>> develop
 }
 
 .header-logo-info {
@@ -61,6 +79,7 @@
 }
 
 .header_center_info_search_catalog {
+<<<<<<< HEAD
   background-color: #ff4d4d;
   padding: 16px 20px 16px 20px;
   gap: 8px;
@@ -80,6 +99,21 @@
   background: #f2f5f9;
   border-radius: 0 10px 10px 0;
 }
+=======
+    background-color: #ff4d4d;
+    padding: 16px 20px 16px 20px;
+    gap: 8px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+>>>>>>> develop
 .header_nav-button {
   border-radius: 10px;
   padding: 10px;
@@ -90,4 +124,62 @@
 .header_nav {
   display: flex;
   gap: 10px;
+}
+
+.header_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.header_info_left_block {
+    padding: 20px;
+    background: #f2f5f9;
+    border-radius: 16px;
+}
+.header_info_right_block {
+    padding: 20px;
+    background: #f2f5f9;
+    border-radius: 16px;
+}
+
+.header_info__left_block-text {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 72px;
+    padding: 0;
+    
+    margin: 0;
+}
+
+.header_info__right_block-text {
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    line-height: 72px;
+}
+
+.orange-text {
+    color: #ff4d4d;
+    padding: 0;
+    margin: 0;
+}
+.header_info_left_block-button {
+    padding: 15px 40px;
+    background: #ff4d4d;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.header_info_right_block-button {
+    padding: 15px 40px;
+    background: #ff4d4d;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
 }
