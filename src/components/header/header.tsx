@@ -69,32 +69,7 @@ function Header() {
             </div>
           </div>
         </div>
-        <h1 className="header-logo-info">Лучшие цены в интернет-магазинах</h1>
-        <div className="header_center_info_search_content">
-          <div className="header_center_info_search_catalog">
-            Каталог товаров ↓
-          </div>
-          <input
-            placeholder="Поиск товаров"
-            type="text"
-            className="header_center_info_search_content-input"
-          />
-        </div>
-        <div className="header_nav">
-          <Link to={"/favorites"} className="header_nav-button">
-            <img src={HeaderButtonHeart} alt="" />
-          </Link>
-          <Link to={"/differences"} className="header_nav-button">
-            <img src={HeaderButtonChart} alt="" />
-          </Link>
-          <Link to={"/profile"} className="header_nav-button">
-            <img src={HeaderButtonFrame} alt="" />
-          </Link>
-        </div>
-        <div className="header_info">
-          <div className="header_info_left_block"></div>
-          <div className="header_info_right_block"></div>
-        </div>
+        
       </section>
     </section>
   );
