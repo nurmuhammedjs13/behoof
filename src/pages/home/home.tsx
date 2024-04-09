@@ -1,15 +1,14 @@
+import Footer from "../../components/footer/footer";
 import Header from "../../components/header/header";
-import Section from "../../pages/home/section";
-
-
+import Hero from "../../components/hero/hero";
 
 function Home() {
-    return (
-        <>
-            <Header />
-            <Section/>
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Footer />
+    </>
+  );
 }
-
 export default Home;

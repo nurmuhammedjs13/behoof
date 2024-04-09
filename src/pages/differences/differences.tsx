@@ -1,9 +1,5 @@
-
-
 function Differences() {
-  return (
-    <div>Differences</div>
-  )
+  return <div>Differences</div>;
 }
 
-export default Differences
+export default Differences;
