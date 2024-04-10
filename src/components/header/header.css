@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header_center_info_search_content-input {
@@ -148,6 +149,11 @@
         flex-direction: column;
     }
 
+    .categories_button {
+        visibility: hidden;
+        display: none;
+    }
+
     .header_nav {
         visibility: hidden;
     }
@@ -169,5 +175,4 @@
     .header_center_info_search_content-input {
         width: 150px; /* новая ширина для маленьких экранов */
     }
-
 }

@@ -13,7 +13,7 @@ function Header_content() {
                                     сравни, выберай!
                                 </h1>
                             </div>
-                            <button className="header_info_left_block-button">
+                            <button  className="header_info_left_block-button">
                                 Перейти к категориям →
                             </button>
                         </div>

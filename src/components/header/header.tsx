@@ -4,6 +4,7 @@ import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
 import { Link } from "react-router-dom";
+import DropDown from "../DropDown/DropDown";
 
 function Header() {
     return (
@@ -28,10 +29,16 @@ function Header() {
                                 </h1>
                             </div>
                             <div className="header_center_info_search_content">
-                                <button className="header_center_info_search_catalog">
-                                    Каталог товаров ↓
-                                </button>
+                                <div className="categories_button">
+
+                                <DropDown
+                                    data={[]}
+                                    defaultValue="Категория товаров ↓"
+                                    onSelect={(value) => console.log(value)}
+                                />
+                                </div>
                                 <input
+                                
                                     placeholder="Поиск товаров"
                                     type="text"
                                     className="header_center_info_search_content-input"
