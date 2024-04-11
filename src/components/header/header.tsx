@@ -4,6 +4,7 @@ import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
 import { Link } from "react-router-dom";
+import PhonePanel from "../phonePanel/phonePanel";
 import DropDown from "../DropDown/DropDown";
 
 function Header() {
@@ -78,6 +79,10 @@ function Header() {
                     </div>
                 </div>
             </section>
+            <div className="phonePanel_section">
+                <PhonePanel />
+            </div>
+            
         </section>
     );
 }
