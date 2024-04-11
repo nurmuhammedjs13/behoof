@@ -19,9 +19,6 @@ function Header() {
                                         alt=""
                                         className="header-logo-img"
                                     />
-                                    <Link to={"/"} className="header_logo-text">
-                                        Behoof
-                                    </Link>
                                 </div>
                                 <h1 className="header-logo-info">
                                     Лучшие цены в интернет-магазинах
