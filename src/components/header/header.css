@@ -4,11 +4,6 @@
   justify-content: center;
 }
 
-.header-logo-img {
-  max-width: 35px;
-  max-height: 35px;
-}
-
 .header_logo_content {
   display: flex;
   flex-direction: row;
@@ -25,25 +20,24 @@
 
 .header_center_info_search_content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  padding: 0 20px;
 }
 
 .header_content_info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
   align-items: center;
+  justify-content: space-between;
 }
 
 .header_center_info_search_content-input {
   border: none;
-  padding: 18px 200px;
-  border-radius: 0px 8px 8px 0px;
   background: #f2f5f9;
+  padding: 0 0 0 10px;
   border-radius: 0 10px 10px 0;
+  width: 576px; /* начальная ширина */
+  transition: width 0.5s; /* плавный переход ширины за 0.5 секунды */
+  box-sizing: border-box; /* учитываем padding в общей ширине элемента */
 }
 
 .header_logo-text {
@@ -147,6 +141,40 @@
   border-radius: 10px;
   color: white;
   font-size: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .header_info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categories_button {
+    visibility: hidden;
+    display: none;
+  }
+
+  .header_nav {
+    visibility: hidden;
+  }
+  .header_center_info_search_catalog {
+    visibility: hidden;
+    box-sizing: none;
+    display: none;
+  }
+  .header_content_info {
+    flex-direction: column;
+  }
+  .header_logo_content {
+    flex-direction: column;
+  }
+  .header_center_info_search_content-input {
+    padding: 10px 40px;
+    border-radius: 10px;
+  }
+  .header_center_info_search_content-input {
+    width: 150px; /* новая ширина для маленьких экранов */
+  }
 }
 @media screen and (max-width: 375px) {
   .header_info {
