@@ -148,3 +148,14 @@
   color: white;
   font-size: 20px;
 }
+@media screen and (max-width: 375px) {
+  .header_info {
+    display: flex;
+    flex-direction: column;
+  }
+  .header_info__left_block-text {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+  }
+}
