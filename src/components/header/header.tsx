@@ -75,6 +75,7 @@ function Header() {
                                 </Link>
                             </div>
                         </div>
+                        <div className="phone_panel">asd</div>
                     </div>
                 </div>
             </section>

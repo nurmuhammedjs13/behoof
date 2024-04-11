@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 0;
     gap: 20px;
 }
 
@@ -153,6 +152,12 @@
     font-size: 20px;
 }
 
+
+    .phone_panel{
+      position: absolute;
+      bottom: 100%;
+      color: #ff4d4d;
+    }
 @media screen and (max-width: 375px) {
     .header_info {
         display: flex;
