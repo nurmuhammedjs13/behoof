@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  padding: 20px 0 0 0;
 }
 
 .container {
@@ -11,7 +13,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.a {
+* {
   text-decoration: none;
 }
 text {
@@ -24,6 +26,6 @@ p {
 @media screen and (max-width: 375px) {
   .container {
     margin: 0;
-    padding: 0 50px;
+    padding: 0 30px;
   }
 }
