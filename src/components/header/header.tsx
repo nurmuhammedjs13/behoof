@@ -8,7 +8,6 @@ import DropDown from "../DropDown/DropDown";
 
 function Header() {
     return (
-        <section>
             <section className="header">
                 <div className="container">
                     <div className="header_content">
@@ -68,7 +67,6 @@ function Header() {
                     </div>
                 </div>
             </section>
-        </section>
     );
 }
 export default Header;
