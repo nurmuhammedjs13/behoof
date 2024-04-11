@@ -1,6 +1,6 @@
 import headerLogo from "../../assets/header-logo.png";
 import "./header.css";
-import HeaderButtonHeart from "../../assets/heart.png";
+import HeaderButtonHeart from "../../assets/heart.svg";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
 import { Link } from "react-router-dom";
