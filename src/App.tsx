@@ -5,32 +5,32 @@ import Differences from "./pages/differences/differences";
 import Favorites from "./pages/favorites/favorites";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/profile",
-        element: <Profile />,
-    },
-    {
-        path: "/differences",
-        element: <Differences />,
-    },
-    {
-        path: "/favorites",
-        element: <Favorites />,
-    },
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
+  },
+  {
+    path: "/differences",
+    element: <Differences />,
+  },
+  {
+    path: "/favorites",
+    element: <Favorites />,
+  },
 ]);
 
 // const [show, setShow] = useState(true);
 
 function App() {
-    return (
-        <>
-            <RouterProvider router={router} />
-        </>
-    );
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;

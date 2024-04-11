@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Header_content/>
+      <Header_content />
       <Hero />
       <Footer />
     </>
