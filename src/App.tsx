@@ -3,6 +3,7 @@ import Home from "./pages/home/home";
 import Profile from "./pages/profile/profile";
 import Differences from "./pages/differences/differences";
 import Favorites from "./pages/favorites/favorites";
+import GroupOfProducts from "./pages/groupOfProducts/groupOfProducts";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/favorites",
     element: <Favorites />,
+  },
+  {
+    path: "/groupOfProducts",
+    element: <GroupOfProducts />,
   },
 ]);
 
