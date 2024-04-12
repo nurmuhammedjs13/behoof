@@ -49,6 +49,9 @@
 .groupOfProducts_content_search_fillter{
 border: 1px solid #F2F5F9;
 padding: 25px;
+display: flex;
+gap: 10px;
+flex-direction: column;
 background: #FDFDFD;
 border-radius: 10px;
 }
@@ -63,4 +66,16 @@ margin: 0;
 
 .groupOfProducts_content_search{
     padding: 20px 0;
+}
+
+.groupOfProducts_content_search_fillter_price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.groupOfProducts_content_search_fillter_price_selections{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
