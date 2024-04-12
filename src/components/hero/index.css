@@ -1,0 +1,203 @@
+.hero {
+  max-width: 100%;
+  height: 920px;
+}
+
+.hero-logo {
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(15, 17, 19, 1);
+}
+
+.hero__cards {
+  max-width: 1440px;
+  height: 224px;
+  top: 1648px;
+  left: 240px;
+  gap: 20px;
+  opacity: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hero__cards__card {
+  max-width: 336px;
+  height: 140px;
+  gap: 4px;
+  opacity: 0px;
+}
+.hero__card-text {
+  padding-top: 15px;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.warrior {
+  max-width: 1440px;
+  height: 453px;
+  top: 1952px;
+  left: 240px;
+  gap: 10px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+}
+.warrior__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(246, 247, 250, 1);
+  padding: 50px 50px 0;
+  border-radius: 16px;
+}
+.warrior__cards__card {
+  gap: 20px;
+  max-width: 100%;
+  height: 100%;
+}
+.warrior__card-text {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  color: rgba(255, 77, 77, 1);
+}
+.warrior__card-tekst {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  color: rgba(15, 17, 19, 1);
+}
+.warrior__card__icons {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+.warrior__card__icons__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 220px;
+  height: 45px;
+  padding: 10.42px 13.93px 9.14px 14.81px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 1;
+  background: rgba(15, 17, 19, 1);
+}
+.warrior__card__icons__icon-text {
+  padding-left: 10px;
+  max-width: 128.64px;
+  height: 41.44px;
+  top: 51.86px;
+  left: 62.28px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.warrior-img {
+  max-width: 300px;
+  height: 400px;
+  position: absolute;
+  opacity: 1;
+}
+.warrior-img1 {
+  margin: 30px 0 0;
+  width: 500px;
+  height: 370px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 375px) {
+  .hero__cards {
+    height: 850px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero__cards__card {
+    margin: 20px 0 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero__logo {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero {
+    height: 1600px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    margin: 0;
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .warrior {
+    height: 500px;
+    background: rgba(242, 245, 249, 1);
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .warrior__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .hero__cards__card {
+    margin: 20px 0 0;
+  }
+  .hero__logo {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .warrior__cards__card {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .warrior__card-text {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .warrior__card-tekst {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .warrior__card__icons__icon {
+    max-width: 150px;
+    margin: 0 0 15px;
+  }
+  .warrior__card__icons__icon-text {
+    font-size: 8px;
+  }
+  .warrior-img {
+    max-width: 150px;
+    height: 150px;
+    padding: 0 20px;
+  }
+  .warrior-img1 {
+    width: 200px;
+    height: 120px;
+    padding: 0 20px;
+  }
+}

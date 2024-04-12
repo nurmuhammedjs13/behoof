@@ -1,12 +1,31 @@
-body{
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  padding: 20px 0 0 0;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  text-decoration: none;
+}
+text {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+@media screen and (max-width: 375px) {
+  .container {
     margin: 0;
-    padding: 0;
-}
-
-.container{
-    padding: 20px 100px;
-}
-
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 30px;
+  }
 }

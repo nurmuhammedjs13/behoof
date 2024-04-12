@@ -4,10 +4,12 @@ import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
 import { Link } from "react-router-dom";
+import PhonePanel from "../phonePanel/phonePanel";
+import DropDown from "../DropDown/DropDown";
 
 function Header() {
     return (
-        <>
+        <section>
             <section className="header">
                 <div className="container">
                     <div className="header_content">
@@ -28,9 +30,13 @@ function Header() {
                                 </h1>
                             </div>
                             <div className="header_center_info_search_content">
-                                <button className="header_center_info_search_catalog">
-                                    Каталог товаров ↓
-                                </button>
+                                <div className="categories_button">
+                                    <DropDown
+                                        data={[]}
+                                        defaultValue="Категория товаров ↓"
+                                        onSelect={(value) => console.log(value)}
+                                    />
+                                </div>
                                 <input
                                     placeholder="Поиск товаров"
                                     type="text"
@@ -42,50 +48,42 @@ function Header() {
                                     to={"/favorites"}
                                     className="header_nav-button"
                                 >
-                                    <img src={HeaderButtonHeart} alt="" />
+                                    <img
+                                        src={HeaderButtonHeart}
+                                        className="header_nav-icon"
+                                        alt=""
+                                    />
                                 </Link>
                                 <Link
                                     to={"/differences"}
                                     className="header_nav-button"
                                 >
-                                    <img src={HeaderButtonChart} alt="" />
+                                    <img
+                                        src={HeaderButtonChart}
+                                        className="header_nav-icon"
+                                        alt=""
+                                    />
                                 </Link>
                                 <Link
                                     to={"/profile"}
                                     className="header_nav-button"
                                 >
-                                    <img src={HeaderButtonFrame} alt="" />
+                                    <img
+                                        src={HeaderButtonFrame}
+                                        className="header_nav-icon"
+                                        alt=""
+                                    />
                                 </Link>
-                            </div>
-                        </div>
-                        <div className="header_info">
-                            <div className="header_info_left_block">
-                                <div className="header_info_left_block-content">
-                                    <h1 className="header_info__left_block-text">
-                                        1.8 млн товаров в 2272 магазинах найди,
-                                        сравни, выберай!
-                                    </h1>
-                                </div>
-                                <button className="header_info_left_block-button">
-                                    Перейти к категориям →
-                                </button>
-                            </div>
-                            <div className="header_info_right_block">
-                                <div className="header_info__right_block-content">
-                                    <h1 className="header_info__right_block-text">
-                                        Топ-10 смартфонов 2023 года
-                                    </h1>
-                                </div>
-                                <button className="header_info_right_block-button">
-                                    Смотреть →
-                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-        </>
+            <div className="phonePanel_section">
+                <PhonePanel />
+            </div>
+            
+        </section>
     );
 }
-
 export default Header;
