@@ -36,6 +36,9 @@ function Differences() {
               </div>
             </div>
           </div>
+
+          <li>Object жазылат</li>
+
           <div className="differences__cards">
             <h3 className="differences__cards-logo">Сравнение товаров</h3>
             <div className="differences__cards__card">
