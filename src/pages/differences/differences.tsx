@@ -36,6 +36,67 @@ function Differences() {
               </div>
             </div>
           </div>
+          <div className="differences__cards">
+            <h3 className="differences__cards-logo">Сравнение товаров</h3>
+            <div className="differences__cards__card">
+              <h3 className="differences__cards__card-logo">Рейтинг</h3>
+              <div className="differences__cards__card__title">
+                <li className="differences__cards__card__title-obj">a</li>
+                <li className="differences__cards__card__title-obj">d</li>
+                <li className="differences__cards__card__title-obj">f</li>
+                <li className="differences__cards__card__title-obj">c</li>
+              </div>
+            </div>
+            <div className="differences__cards__card">
+              <h3 className="differences__cards__card-logo">Модель</h3>
+              <div className="differences__cards__card__title">
+                <li className="differences__cards__card__title-obj">a</li>
+                <li className="differences__cards__card__title-obj">d</li>
+                <li className="differences__cards__card__title-obj">f</li>
+                <li className="differences__cards__card__title-obj">c</li>
+              </div>
+            </div>
+            <div className="differences__cards__card">
+              <h3 className="differences__cards__card-logo">Год релиза</h3>
+              <div className="differences__cards__card__title">
+                <li className="differences__cards__card__title-obj">a</li>
+                <li className="differences__cards__card__title-obj">d</li>
+                <li className="differences__cards__card__title-obj">f</li>
+                <li className="differences__cards__card__title-obj">c</li>
+              </div>
+            </div>
+            <div className="differences__cards__card">
+              <h3 className="differences__cards__card-logo">Количество ядер</h3>
+              <div className="differences__cards__card__title">
+                <li className="differences__cards__card__title-obj">a</li>
+                <li className="differences__cards__card__title-obj">d</li>
+                <li className="differences__cards__card__title-obj">f</li>
+                <li className="differences__cards__card__title-obj">c</li>
+              </div>
+            </div>
+            <div className="differences__cards__card">
+              <h3 className="differences__cards__card-logo">
+                Поддержка сетей 4G (LTE)
+              </h3>
+              <div className="differences__cards__card__title">
+                <li className="differences__cards__card__title-obj">a</li>
+                <li className="differences__cards__card__title-obj">d</li>
+                <li className="differences__cards__card__title-obj">f</li>
+                <li className="differences__cards__card__title-obj">c</li>
+              </div>
+            </div>
+            <div className="differences__cards__card">
+              <h3 className="differences__cards__card-logo">
+                Объем встроенной памяти
+              </h3>
+              <div className="differences__cards__card__title">
+                <li className="differences__cards__card__title-obj">a</li>
+                <li className="differences__cards__card__title-obj">d</li>
+                <li className="differences__cards__card__title-obj">f</li>
+                <li className="differences__cards__card__title-obj">c</li>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

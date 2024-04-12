@@ -1,0 +1,66 @@
+.main {
+    color: #7e8794;
+}
+
+.groupOfProducts_content_search_navs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.groupOfProducts_content_search-title {
+    font-size: 35px;
+}
+
+/* src/styles.css */
+.custom-checkbox {
+    display: none;
+}
+
+.custom-checkbox-label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: orange; /* синий цвет */
+    border-radius: 50%; /* круглый */
+    cursor: pointer;
+    border: 1px solid orange;
+    text-align: center;
+    line-height: 20px;
+    color: white; /* белый текст */
+}
+
+.custom-checkbox:checked + .custom-checkbox-label {
+    background-color: white; /* белый фон */
+    color: orange; /* синий текст */
+}
+
+.groupOfProducts_content_search_fillter_price_selections_block{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.groupOfProducts_content_search_fillter_price_selections_block-text{
+    font-size: 14px;
+}
+
+.groupOfProducts_content_search_fillter{
+border: 1px solid #F2F5F9;
+padding: 25px;
+background: #FDFDFD;
+border-radius: 10px;
+}
+.groupOfProducts_content_search_fillter-title{
+margin: 0;
+}
+
+.groupOfProducts_content_search_fillter_price_text{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.groupOfProducts_content_search{
+    padding: 20px 0;
+}

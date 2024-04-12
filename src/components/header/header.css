@@ -152,18 +152,24 @@
     font-size: 20px;
 }
 
-
-    .phone_panel{
-      position: absolute;
-      bottom: 100%;
-      color: #ff4d4d;
-    }
+.phonePanel_section {
+    visibility: hidden;
+    position: absolute;
+    
+  }
+  
 @media screen and (max-width: 375px) {
-    .header_info {
-        display: flex;
+  .header_info {
+    display: flex;
         flex-direction: column;
     }
 
+    .phonePanel_section {
+      visibility: visible;
+      position: fixed;
+      z-index: 1;
+      bottom: 0;
+    }
     .categories_button {
         visibility: hidden;
         display: none;
