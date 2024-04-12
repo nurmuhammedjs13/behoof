@@ -4,6 +4,7 @@ import HeaderButtonHeart from "../../assets/heart.png";
 import HeaderButtonChart from "../../assets/chart.png";
 import HeaderButtonFrame from "../../assets/frame.png";
 import { Link } from "react-router-dom";
+import PhonePanel from "../phonePanel/phonePanel";
 import DropDown from "../DropDown/DropDown";
 
 function Header() {
@@ -40,19 +41,34 @@ function Header() {
               </div>
               <div className="header_nav">
                 <Link to={"/favorites"} className="header_nav-button">
-                  <img src={HeaderButtonHeart} alt="" />
+                  <img
+                    src={HeaderButtonHeart}
+                    className="header_nav-icon"
+                    alt=""
+                  />
                 </Link>
                 <Link to={"/differences"} className="header_nav-button">
-                  <img src={HeaderButtonChart} alt="" />
+                  <img
+                    src={HeaderButtonChart}
+                    className="header_nav-icon"
+                    alt=""
+                  />
                 </Link>
                 <Link to={"/profile"} className="header_nav-button">
-                  <img src={HeaderButtonFrame} alt="" />
+                  <img
+                    src={HeaderButtonFrame}
+                    className="header_nav-icon"
+                    alt=""
+                  />
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <div className="phonePanel_section">
+        <PhonePanel />
+      </div>
     </section>
   );
 }

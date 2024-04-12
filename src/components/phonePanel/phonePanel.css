@@ -1,0 +1,41 @@
+.phonePanel_content {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.panel-text {
+  color: #7e8794;
+  margin: none;
+  padding: none;
+}
+
+.phonePanel_content_button {
+  background: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  align-items: center;
+  padding: 0 8px;
+  justify-content: center;
+}
+
+.phonePanel_content_button:hover {
+  cursor: pointer;
+  background: #f2f5f9;
+  color: orange;
+}
+
+.panel-text:hover {
+  color: orange;
+}
+
+.pjonepanel_icon {
+  margin: none;
+  padding: 5px 0;
+  height: 25px;
+}
