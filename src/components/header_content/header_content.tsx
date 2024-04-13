@@ -1,6 +1,16 @@
+import { useDispatch } from "react-redux";
 import "./index.css";
+import { toggleShow } from "../../store/slices/category";
 
 function Header_content() {
+    // const toShow = useSelector((state: RootState) => state.categories.show);
+
+    const dispatch = useDispatch();
+
+    function toShows() {
+        dispatch(toggleShow());
+    }
+
     return (
         <>
             <section className="header_content">
@@ -13,7 +23,7 @@ function Header_content() {
                                     сравни, выберай!
                                 </h1>
                             </div>
-                            <button className="header_info_left_block-button">
+                            <button onClick={toShows} className="header_info_left_block-button">
                                 Перейти к категориям →
                             </button>
                         </div>
