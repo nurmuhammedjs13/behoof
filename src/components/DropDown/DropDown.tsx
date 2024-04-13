@@ -1,6 +1,8 @@
-import React, { useState } from "react";
 import "./DropDown.css";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../store/store";
+import { toggleShow } from "../../store/slices/category";
 
 interface Props {
     onSelect: (value: string) => void;
@@ -9,24 +11,28 @@ interface Props {
 }
 
 const DropDown: React.FC<Props> = () => {
-    // const [currentValue, setCurrentValue] = useState(defaultValue);
-    const [show, setShow] = useState(true);
+    const toShow = useSelector((state: RootState) => state.categories.show);
+
+    const dispatch = useDispatch();
+
+    function toShows() {
+        dispatch(toggleShow());
+    }
 
     return (
         <div className="DropDown-wrap">
-            <button
-                className="dropdown-defaultValue"
-                onClick={() => setShow(!show)}
-            >
+            <button className="dropdown-defaultValue" onClick={toShows}>
                 {"Категория товаров ↓"}
             </button>
 
-            <div className={show ? "dropdown-hidden" : "dropdown-visible"}>
-                <div className="categories_content">
+            <div className={toShow ? "dropdown-hidden" : "dropdown-visible"}>
+                <button onClick={toShows} className="categories_content">
                     <div className="categories_content_info">
-                        <h1 className="categories_content_info_title">
-                            Каталог товаров
-                        </h1>
+                        <div className="categories_content_info-title">
+                            <h1 className="categories_content_info_title-text">
+                                Каталог товаров
+                            </h1>
+                        </div>
                         <div className="categories_content_info_buttons">
                             <div className="categories_content_info_block1">
                                 <Link
@@ -39,7 +45,7 @@ const DropDown: React.FC<Props> = () => {
                                     </h1>
                                 </Link>
                                 <Link
-                                    to={''}
+                                    to={""}
                                     className="categories_content_info-button"
                                 >
                                     Ноутбуки
@@ -146,14 +152,10 @@ const DropDown: React.FC<Props> = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     );
 };
 
 export default DropDown;
-
-// {data.map((el) => (
-//     <button onClick={() => onSelectHandler(el)}>{el}</button>
-// ))}

@@ -184,24 +184,24 @@
 }
 
 @media screen and (max-width: 375px) {
-.groupOfProducts_content_objects_object{
-    display: flex;
-    flex-direction: column;
-}
+    .groupOfProducts_content_objects_object {
+        display: flex;
+        flex-direction: column;
+    }
 
-.groupOfProducts_content_objects_object_info_advantage_info_block2{
-    display: none;
-    visibility: hidden;
-}
+    .groupOfProducts_content_objects_object_info_advantage_info_block2 {
+        display: none;
+        visibility: hidden;
+    }
 
-.groupOfProducts_content_objects_object_info_advantage-name{
-    font-size: 18px;
-}
-.groupOfProducts_content_objects_object_info_advantage-price{
-    font-size: 18px;
-}
+    .groupOfProducts_content_objects_object_info_advantage-name {
+        font-size: 18px;
+    }
+    .groupOfProducts_content_objects_object_info_advantage-price {
+        font-size: 18px;
+    }
 
-.groupOfProducts_content_objects_object_info_advantage_title{
-    flex-direction: column  ;
-}
+    .groupOfProducts_content_objects_object_info_advantage_title {
+        flex-direction: column;
+    }
 }
