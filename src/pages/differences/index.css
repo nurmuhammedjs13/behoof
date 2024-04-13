@@ -190,10 +190,10 @@
     text-align: left;
 }
 
-.differences_obj_product_info{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.differences_obj_product_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .differences_obj_product_info_hero-product {
@@ -246,6 +246,9 @@
     .differences__cards-logo {
         font-size: 15px;
     }
+    .differences_obj_products {
+        grid-template-columns: 1fr 1fr;
+    }
     .differences__cards__card-logo {
         font-size: 13px;
         height: 35px;
@@ -276,6 +279,10 @@
     .header_info {
         display: flex;
         flex-direction: column;
+    }
+
+    .differences_obj_products {
+        grid-template-columns: 1fr;
     }
 
     .header_nav {
