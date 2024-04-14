@@ -213,6 +213,7 @@
 .differences_obj_products {
     display: grid;
     gap: 20px;
+    padding: 20px 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 

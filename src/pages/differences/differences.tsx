@@ -2,9 +2,9 @@ import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import trash from "../../assets/differences_trash.png";
 import hearticon from "../../assets/heart.png";
+import Iphoneicon from "../../assets/Apple.png";
 import "./index.css";
 import { Link } from "react-router-dom";
-import Iphoneicon from "../../assets/Apple.png";
 
 function Differences() {
     return (
