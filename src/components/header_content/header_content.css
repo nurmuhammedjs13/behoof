@@ -46,6 +46,7 @@
   border-radius: 10px;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 .header_info_right_block-button {
   padding: 15px 40px;

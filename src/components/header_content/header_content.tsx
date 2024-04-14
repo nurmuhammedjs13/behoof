@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import "./index.css";
+import "./header_content.css";
 import { toggleShow } from "../../store/slices/category";
 
 function Header_content() {
