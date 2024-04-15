@@ -1,7 +1,6 @@
 import React from "react";
 import Review from "../reviewItem";
 import "./style.css";
-import reviewImg from "../../assets/Avatar1.png";
 
 function ReviewPage() {
     return (
