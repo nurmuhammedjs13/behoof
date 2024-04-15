@@ -14,6 +14,11 @@ const todoSlice = createSlice({
     reducers: {
         toggleShow(state) {
             state.show = !state.show;
+            if (state.show === true) {
+                ("dropdown-hidden");
+            } else {
+                ("dropdown-visible");
+            }
         },
     },
 });
