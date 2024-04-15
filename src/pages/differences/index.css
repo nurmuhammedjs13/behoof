@@ -9,6 +9,12 @@
   color: #a1abb9;
 }
 
+.differences_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .differences_content_title_nav-current {
   font-size: 16px;
   font-weight: 400;
@@ -45,10 +51,12 @@
   gap: 10px;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 .differences_content_title_text-button:hover {
   border: 1px solid rgb(248, 3, 3);
   border-radius: 10px;
+  color: red;
 }
 
 .differences__cards {
@@ -95,9 +103,152 @@
   text-align: left;
   color: rgba(126, 135, 148, 1);
 }
+.differences_obj {
+  border: 2px solid #f2f5f9;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.differences_obj_title {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.differences_obj_title_products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  border: 1px solid #f2f5f9;
+  padding: 10px;
+  background: #f2f5f9;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.differences_obj_product {
+  border: 2px solid #e7e7e7;
+  background: rgb(253, 253, 253);
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.differences_obj_product_info_price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.differences_obj_product_info_price_block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.differences_obj_product_info_price_button {
+  border: none;
+  background: none;
+}
+
+.differences_obj_product_info_price_button:hover {
+  cursor: pointer;
+}
+
+.differences_obj_product_info_hero-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #7e8794;
+  text-align: left;
+}
+
+.differences_obj_product_info_price_block-count {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 24px;
+  text-align: left;
+}
+
+.differences_obj_product_info_price_block-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  color: #7e8794;
+  text-align: left;
+}
+
+.differences_obj_product_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.differences_obj_product_info_hero-product {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.differences_obj_product_img {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.differences_obj_products {
+  display: grid;
+  gap: 20px;
+  padding: 20px 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.differences_obj_product_img-trash_button {
+  padding: 20px;
+  border: none;
+  background: transparent;
+}
+
+.differences_obj_product_img-trash_button:hover {
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.differences_obj_title_products:hover {
+  color: orange;
+}
+
+.differences_obj_title_products-button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
+
+.differences_obj_title_products-button:hover {
+  color: red;
+}
+
 @media screen and (max-width: 840px) {
   .differences__cards-logo {
     font-size: 15px;
+  }
+  .differences_obj_products {
+    grid-template-columns: 1fr 1fr;
   }
   .differences__cards__card-logo {
     font-size: 13px;
@@ -129,6 +280,10 @@
   .header_info {
     display: flex;
     flex-direction: column;
+  }
+
+  .differences_obj_products {
+    grid-template-columns: 1fr;
   }
 
   .header_nav {

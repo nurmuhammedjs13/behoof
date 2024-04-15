@@ -1,6 +1,16 @@
-import "./index.css";
+import { useDispatch } from "react-redux";
+import "./header_content.css";
+import { toggleShow } from "../../store/slices/category";
 
 function Header_content() {
+  // const toShow = useSelector((state: RootState) => state.categories.show);
+
+  const dispatch = useDispatch();
+
+  function toShows() {
+    dispatch(toggleShow());
+  }
+
   return (
     <>
       <section className="header_content">
@@ -9,17 +19,28 @@ function Header_content() {
             <div className="header_info_left_block">
               <div className="header_info_left_block-content">
                 <h1 className="header_info__left_block-text">
-                  1.8 млн товаров в 2272 магазинах найди, сравни, выберай!
+                  <h1 className="orange_header_text">1.8</h1> млн товаров в
+                  <h1 className="orange_header_text">2272</h1> магазинах
+                </h1>
+                <h1 className="header_info__left_block-text">
+                  найди, сравни, выберай!
                 </h1>
               </div>
-              <button className="header_info_left_block-button">
+              <button
+                onClick={toShows}
+                className="header_info_left_block-button"
+              >
                 Перейти к категориям →
               </button>
             </div>
             <div className="header_info_right_block">
               <div className="header_info__right_block-content">
                 <h1 className="header_info__right_block-text">
-                  Топ-10 смартфонов 2023 года
+                  <div className="div_for_orange">
+                    <h1 className="orange_header_text">Топ-10</h1>
+                    смартфонов
+                  </div>
+                  2023 года
                 </h1>
               </div>
               <button className="header_info_right_block-button">
