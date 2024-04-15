@@ -53,7 +53,7 @@ function Heros() {
                 <h3 className="warrior__card-text">Экономьте</h3>
                 <h3 className="warrior__card-tekst">свое время и получайте</h3>
                 <h3 className="warrior__card-text">максимум</h3>
-                <h3 className="warrior__card-text">от ежедневных покупок</h3>
+                <h3 className="warrior__card-tekst">от ежедневных покупок</h3>
                 <div className="warrior__card__icons">
                   <div className="warrior__card__icons__icon">
                     <img className="warrior-imgg" src={google} alt="" />

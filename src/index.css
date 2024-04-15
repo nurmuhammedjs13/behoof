@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  padding: 0 100px;
+  padding: 0 80px;
 }
 
 * {
@@ -14,9 +14,6 @@ body {
 }
 
 * {
-  text-decoration: none;
-}
-text {
   text-decoration: none;
 }
 
