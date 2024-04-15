@@ -1,8 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  padding: 20px 0 0 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    padding: 20px 0 0 0;
 }
 .container {
   max-width: 1380px;
@@ -16,10 +16,18 @@ body {
   }
 }
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 p {
   text-decoration: none;
   margin: 0;
+}
+@media screen and (max-width: 375px) {
+    .container {
+        margin: 0;
+        padding: 0 30px;
+    }
 }

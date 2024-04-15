@@ -2,9 +2,9 @@ import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import trash from "../../assets/differences_trash.png";
 import hearticon from "../../assets/heart.png";
-import Iphoneicon from "../../assets/Apple.png";
 import "./index.css";
 import { Link } from "react-router-dom";
+import Iphoneicon from "../../assets/Apple.png";
 
 function Differences() {
     return (
@@ -197,7 +197,7 @@ function Differences() {
                                 <h3 className="differences__cards__card-logo">
                                     Рейтинг
                                 </h3>
-                                <div className="differences__cards__card__title">
+                                <ul className="differences__cards__card__title">
                                     <li className="differences__cards__card__title-obj">
                                         a
                                     </li>
@@ -210,13 +210,13 @@ function Differences() {
                                     <li className="differences__cards__card__title-obj">
                                         c
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                             <div className="differences__cards__card">
                                 <h3 className="differences__cards__card-logo">
                                     Модель
                                 </h3>
-                                <div className="differences__cards__card__title">
+                                <ul className="differences__cards__card__title">
                                     <li className="differences__cards__card__title-obj">
                                         a
                                     </li>
@@ -229,13 +229,13 @@ function Differences() {
                                     <li className="differences__cards__card__title-obj">
                                         c
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                             <div className="differences__cards__card">
                                 <h3 className="differences__cards__card-logo">
                                     Год релиза
                                 </h3>
-                                <div className="differences__cards__card__title">
+                                <ul className="differences__cards__card__title">
                                     <li className="differences__cards__card__title-obj">
                                         a
                                     </li>
@@ -248,13 +248,13 @@ function Differences() {
                                     <li className="differences__cards__card__title-obj">
                                         c
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                             <div className="differences__cards__card">
                                 <h3 className="differences__cards__card-logo">
                                     Количество ядер
                                 </h3>
-                                <div className="differences__cards__card__title">
+                                <ul className="differences__cards__card__title">
                                     <li className="differences__cards__card__title-obj">
                                         a
                                     </li>
@@ -267,13 +267,13 @@ function Differences() {
                                     <li className="differences__cards__card__title-obj">
                                         c
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                             <div className="differences__cards__card">
                                 <h3 className="differences__cards__card-logo">
                                     Поддержка сетей 4G (LTE)
                                 </h3>
-                                <div className="differences__cards__card__title">
+                                <ul className="differences__cards__card__title">
                                     <li className="differences__cards__card__title-obj">
                                         a
                                     </li>
@@ -286,13 +286,13 @@ function Differences() {
                                     <li className="differences__cards__card__title-obj">
                                         c
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                             <div className="differences__cards__card">
                                 <h3 className="differences__cards__card-logo">
                                     Объем встроенной памяти
                                 </h3>
-                                <div className="differences__cards__card__title">
+                                <ul className="differences__cards__card__title">
                                     <li className="differences__cards__card__title-obj">
                                         a
                                     </li>
@@ -305,7 +305,7 @@ function Differences() {
                                     <li className="differences__cards__card__title-obj">
                                         c
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                         </div>
                     </div>
