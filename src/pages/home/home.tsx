@@ -7,10 +7,10 @@ import InfoProduct from "../infoProduct/infoProduct";
 function Home() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <InfoProduct />
-      {/* <Header_content /> */}
-      {/* <Hero /> */}
+      <Header_content />
+      <Hero />
       <Footer />
     </>
   );
