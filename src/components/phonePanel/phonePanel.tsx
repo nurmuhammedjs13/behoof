@@ -10,6 +10,7 @@ import { RootState } from "../../store/store";
 import { toggleShow } from "../../store/slices/category";
 
 function PhonePanel() {
+
     const toShow = useSelector((state: RootState) => state.categories.show);
 
     const dispatch = useDispatch();
