@@ -29,12 +29,9 @@ function NewProduct() {
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
                 <div className="newProduct__cards__card__info__icons">
-                  <Link
-                    to={"/favorites"}
-                    className="newProduct__cards__card__info__icons-img"
-                  >
+                  <button className="newProduct__cards__card__info__icons-but">
                     <img src={HeaderButtonHeart} alt="" />
-                  </Link>
+                  </button>
                   <Link
                     to={"/differences"}
                     className="newProduct__cards__card__info__icons-img"
@@ -57,12 +54,9 @@ function NewProduct() {
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
                 <div className="newProduct__cards__card__info__icons">
-                  <Link
-                    to={"/favorites"}
-                    className="newProduct__cards__card__info__icons-img"
-                  >
+                  <button className="newProduct__cards__card__info__icons-but">
                     <img src={HeaderButtonHeart} alt="" />
-                  </Link>
+                  </button>
                   <Link
                     to={"/differences"}
                     className="newProduct__cards__card__info__icons-img"
@@ -85,12 +79,9 @@ function NewProduct() {
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
                 <div className="newProduct__cards__card__info__icons">
-                  <Link
-                    to={"/favorites"}
-                    className="newProduct__cards__card__info__icons-img"
-                  >
+                  <button className="newProduct__cards__card__info__icons-but">
                     <img src={HeaderButtonHeart} alt="" />
-                  </Link>
+                  </button>
                   <Link
                     to={"/differences"}
                     className="newProduct__cards__card__info__icons-img"
@@ -113,12 +104,9 @@ function NewProduct() {
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
                 <div className="newProduct__cards__card__info__icons">
-                  <Link
-                    to={"/favorites"}
-                    className="newProduct__cards__card__info__icons-img"
-                  >
+                  <button className="newProduct__cards__card__info__icons-but">
                     <img src={HeaderButtonHeart} alt="" />
-                  </Link>
+                  </button>
                   <Link
                     to={"/differences"}
                     className="newProduct__cards__card__info__icons-img"
