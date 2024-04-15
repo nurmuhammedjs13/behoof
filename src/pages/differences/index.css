@@ -211,16 +211,10 @@
 }
 
 .differences_obj_products {
-<<<<<<< HEAD
   display: grid;
   gap: 20px;
+  padding: 20px 0;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-=======
-    display: grid;
-    gap: 20px;
-    padding: 20px 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
->>>>>>> 1d0df59c4cb014dca19f559c11bf32a6e5cc648b
 }
 
 .differences_obj_product_img-trash_button {
