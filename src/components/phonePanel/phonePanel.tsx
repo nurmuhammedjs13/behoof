@@ -1,4 +1,3 @@
-import React from "react";
 import home from "../../assets/phonePanelhome.png";
 import search from "../../assets/phonePanelsearch.png";
 import Favorites from "../../assets/heart.png";
