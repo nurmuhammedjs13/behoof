@@ -6,7 +6,15 @@ body {
 }
 
 .container {
-  padding: 0 100px;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-inline: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-inline: 16px;
+  }
 }
 
 * {

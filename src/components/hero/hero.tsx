@@ -10,13 +10,12 @@ import accessories from "../../assets/accessories.png";
 
 import { BsHeart } from "react-icons/bs";
 import { VscGraph } from "react-icons/vsc";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <div className="hero__content">
+        <div className="hero__content1">
           <h2 className="hero__logo-text">Лучший выбор</h2>
           <div className="Cards">
             <div className="Card">
@@ -72,20 +71,30 @@ function Hero() {
         <div className="phones_section">
           <div className="phone_navbar">
             <div className="nav_items">
-              <p>Дизайн</p>
-              <span className="nav_items_icons">
-                <IoMdClose />
-              </span>
-              <p>Портативность</p>
-              <span className="nav_items_icons">
-                <IoMdClose />
-              </span>
+              <div className="nav_item">
+                <p>Дизайн</p>
+                <span className="nav_items_icons">
+                  <IoMdClose />
+                </span>
+              </div>
+              <div className="nav_item">
+                <p>Портативность</p>
+                <span className="nav_items_icons">
+                  <IoMdClose />
+                </span>
+              </div>
             </div>
             <div className="nav_item">
-              <p>Камера</p>
-              <p>Ответ</p>
-              <p>Дисплей</p>
-              <p>Батарея</p>
+              <>Камера</>
+            </div>
+            <div className="nav_item">
+              <>Ответ</>
+            </div>
+            <div className="nav_item">
+              <>Дисплей</>
+            </div>
+            <div className="nav_item">
+              <>Батарея</>
             </div>
           </div>
           <div className="phone_infos">
@@ -421,12 +430,6 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <button className="left_arrow arrow">
-              <FaChevronLeft />
-            </button>
-            <button className="right_arrow arrow">
-              <FaChevronRight />
-            </button>
           </div>
         </div>
       </div>
