@@ -4,17 +4,17 @@
     padding-bottom: 12px;
 }
 .header_content {
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 0 0 20px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 20px 0;
 }
 
 .header_logo_content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
 .header-logo {
@@ -101,8 +101,8 @@
 }
 
 .phonePanel_section {
-  visibility: hidden;
-  position: absolute;
+    visibility: hidden;
+    position: absolute;
 }
 
 @media screen and (max-width: 375px) {
@@ -111,16 +111,16 @@
     flex-direction: column;
   }
 
-  .phonePanel_section {
-    visibility: visible;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-  }
-  .categories_button {
-    visibility: hidden;
-    display: none;
-  }
+    .phonePanel_section {
+        visibility: visible;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+    }
+    .categories_button {
+        visibility: hidden;
+        display: none;
+    }
 
   .header_nav {
     visibility: hidden;

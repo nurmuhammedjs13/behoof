@@ -1,3 +1,4 @@
+import React from "react";
 import home from "../../assets/phonePanelhome.png";
 import search from "../../assets/phonePanelsearch.png";
 import Favorites from "../../assets/heart.png";
@@ -10,7 +11,6 @@ import { RootState } from "../../store/store";
 import { toggleShow } from "../../store/slices/category";
 
 function PhonePanel() {
-
     const toShow = useSelector((state: RootState) => state.categories.show);
 
     const dispatch = useDispatch();
