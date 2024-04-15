@@ -44,6 +44,7 @@ function GroupOfProducts() {
                                         <h1 className="groupOfProducts_content_search_fillter_price_selections-text">
                                             Диапазон
                                         </h1>
+                                        {/* <input type="checkbox" id="myCheckbox" name="myCheckbox"> */}
 
                                         <div className="groupOfProducts_content_search_fillter_price_selections_block">
                                             <div className="">
@@ -154,9 +155,9 @@ function GroupOfProducts() {
                                 />{" "}
                                 <div className="groupOfProducts_content_objects_object_info">
                                     <div className="groupOfProducts_content_objects_object_info_buttons">
-                                        <div className="groupOfProducts_content_objects_object_info_button">
+                                        <button className="groupOfProducts_content_objects_object_info_button">
                                             <img src={heart} alt="" />
-                                        </div>
+                                        </button>
                                         <Link
                                             to={"/differences"}
                                             className="groupOfProducts_content_objects_object_info_button"
@@ -287,9 +288,9 @@ function GroupOfProducts() {
                                 />{" "}
                                 <div className="groupOfProducts_content_objects_object_info">
                                     <div className="groupOfProducts_content_objects_object_info_buttons">
-                                        <div className="groupOfProducts_content_objects_object_info_button">
+                                        <button className="groupOfProducts_content_objects_object_info_button">
                                             <img src={heart} alt="" />
-                                        </div>
+                                        </button>
                                         <Link
                                             to={"/differences"}
                                             className="groupOfProducts_content_objects_object_info_button"
@@ -420,9 +421,9 @@ function GroupOfProducts() {
                                 />{" "}
                                 <div className="groupOfProducts_content_objects_object_info">
                                     <div className="groupOfProducts_content_objects_object_info_buttons">
-                                        <div className="groupOfProducts_content_objects_object_info_button">
+                                        <button className="groupOfProducts_content_objects_object_info_button">
                                             <img src={heart} alt="" />
-                                        </div>
+                                        </button>
                                         <Link
                                             to={"/differences"}
                                             className="groupOfProducts_content_objects_object_info_button"
