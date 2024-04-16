@@ -11,7 +11,6 @@ function Home() {
     <>
       <Header />
       <Header_content />
-      <NewProduct/>
       <Hero />
       <Heros />
       <NewProduct />
