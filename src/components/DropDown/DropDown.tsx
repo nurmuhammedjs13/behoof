@@ -10,6 +10,8 @@ interface Props {
     data: string[];
 }
 
+//asd
+
 const DropDown: React.FC<Props> = () => {
     const toShow = useSelector((state: RootState) => state.categories.show);
 
