@@ -1,9 +1,10 @@
-.hero {
+.heros {
   max-width: 100%;
   height: 830px;
 }
 
-.hero-logo {
+.heros-logo {
+  padding: 0 15px;
   margin: 0;
   padding-bottom: 50px;
   font-size: 24px;
@@ -13,7 +14,7 @@
   color: rgba(15, 17, 19, 1);
 }
 
-.hero__cards {
+.heros__cards {
   max-width: 1440px;
   height: 224px;
   top: 1648px;
@@ -23,13 +24,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.hero__cards__card {
+.heros__cards__card {
+  padding: 0 15px;
   max-width: 336px;
   height: 140px;
   gap: 4px;
   opacity: 0px;
 }
-.hero__card-text {
+.heros__cards__card-text {
   padding-top: 15px;
   text-decoration: none;
   font-family: Inter;
@@ -174,15 +176,15 @@
 }
 
 @media screen and (max-width: 375px) {
-  .hero {
+  .heros {
     height: 1700px;
   }
-  .hero__cards {
+  .heros__cards {
     height: 850px;
     display: grid;
     grid-template-columns: 1fr;
   }
-  .hero__logo {
+  .heros__logo {
     padding: 0;
     margin: 0;
   }
@@ -190,10 +192,10 @@
     margin: 0;
     padding: 0 50px;
   }
-  .hero__cards__card {
+  .heros__cards__card {
     margin: 20px 0 0;
   }
-  .hero__logo {
+  .heros__logo {
     padding: 0;
   }
 }

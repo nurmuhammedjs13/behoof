@@ -4,20 +4,26 @@ body {
     overflow-x: hidden;
     padding: 20px 0 0 0;
 }
-
 .container {
-    padding: 0 80px;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-inline: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .container {
+    padding-inline: 16px;
+  }
+}
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
-
 p {
-    margin: 0;
+  text-decoration: none;
+  margin: 0;
 }
 @media screen and (max-width: 375px) {
     .container {

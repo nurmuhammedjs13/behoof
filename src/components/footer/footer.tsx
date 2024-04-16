@@ -27,47 +27,47 @@ function Footer() {
             </div>
             <div className="footer__cards__card1">
               <h3 className="footer__card1-logo">Пользователю</h3>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Связаться с нами
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Поддерка пользователей
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 FAQ & Руководства
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Политика конфиденциальности
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Пользовательское соглашение
               </a>
             </div>
             <div className="footer__cards__card1">
               <h3 className="footer__card1-logo">Популярные категории</h3>
-              <a className="footer__cards__card1-text" href="">
+              <a className="footer__cards__card1-text" href="/groupOfProducts">
                 Смартфоны
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Teteras electricas
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Стиральные машины
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Телевизоры
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Ноутбуки
               </a>
             </div>
             <div className="footer__cards__card1">
               <h3 className="footer__card1-logo">Команда Behoof</h3>
 
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 О нас
               </a>
-              <a className="footer__cards__card1-text" href="#">
+              <a className="footer__cards__card1-text" href={"/pageNot"}>
                 Работа у нас
               </a>
             </div>
