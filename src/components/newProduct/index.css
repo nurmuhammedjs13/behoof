@@ -93,8 +93,6 @@ li {
   background: rgba(253, 253, 253, 1);
   border: 1px solid rgba(242, 245, 249, 1);
 }
-<<<<<<< HEAD
-=======
 
 .icons-checkbox:checked + .icons-checkbox-label {
   background-color: white; /* белый фон */
@@ -109,7 +107,6 @@ li {
   opacity: 0px;
   border: 1px solid rgba(242, 245, 249, 1);
 }
->>>>>>> d097ec35ee4a301e2786d55d1308d3b071b1d529
 
 .icons-checkbox {
   display: none;
