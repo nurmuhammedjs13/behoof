@@ -505,12 +505,10 @@ function InfoProduct() {
                             </div>
                         </div>
                         <Comment />
-            <div className="fooerfo">
-                <Footer />
-            </div>
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     );
 }

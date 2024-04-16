@@ -1,17 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.footer_content {
-    display: flex;
-    flex-direction: column;
-}
-
-.fooerfo {
-    padding: 20px 0;
-}
 
 .hero__img1 {
     width: 700px;
@@ -28,11 +15,6 @@
 .hero__content_block {
     display: flex;
     flex-direction: row;
-}
-
-.hero__content {
-    display: flex;
-    flex-direction: column;
 }
 
 .hero__subjest {
@@ -730,7 +712,6 @@
     .hero_price_color_divs {
         width: 100%;
         display: grid;
-        /* grid-template-columns: repeat(7, 1fr); */
         grid-template-columns: repeat(auto-fit, minmax(34px, 1fr));
     }
 
