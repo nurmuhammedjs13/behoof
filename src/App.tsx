@@ -4,6 +4,7 @@ import Profile from "./pages/profile/profile";
 import Differences from "./pages/differences/differences";
 import Favorites from "./pages/favorites/favorites";
 import GroupOfProducts from "./pages/groupOfProducts/groupOfProducts";
+import PageNot from "./pages/pageNot/pageNot";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/groupOfProducts",
     element: <GroupOfProducts />,
+  },
+  {
+    path: "/pageNot",
+    element: <PageNot />,
   },
 ]);
 

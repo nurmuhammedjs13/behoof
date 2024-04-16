@@ -43,9 +43,9 @@ function Header_content() {
                   2023 года
                 </h1>
               </div>
-              <button className="header_info_right_block-button">
+              <a href={"/pageNot"} className="header_info_right_block-button">
                 Смотреть →
-              </button>
+              </a>
             </div>
           </div>
         </div>
