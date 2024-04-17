@@ -10,7 +10,6 @@ import accessories from "../../assets/accessories.png";
 
 import { BsHeart } from "react-icons/bs";
 import { VscGraph } from "react-icons/vsc";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 function Hero() {
   return (
@@ -72,20 +71,24 @@ function Hero() {
         <div className="phones_section">
           <div className="phone_navbar">
             <div className="nav_items">
-              <p>Дизайн</p>
-              <span className="nav_items_icons">
-                <IoMdClose />
-              </span>
-              <p>Портативность</p>
-              <span className="nav_items_icons">
-                <IoMdClose />
-              </span>
-            </div>
-            <div className="nav_item">
-              <p>Камера</p>
-              <p>Ответ</p>
-              <p>Дисплей</p>
-              <p>Батарея</p>
+              <h1 className="nav_items-button orange">
+                Дизайн <IoMdClose className="nav_items_button_cancel " />
+              </h1>
+              <h1 className="nav_items-button orange">
+                Камера <IoMdClose className="nav_items_button_cancel " />
+              </h1>
+              <h1 className="nav_items-button">
+                Ответ <IoMdClose className="nav_items_button_cancel" />
+              </h1>
+              <h1 className="nav_items-button">
+                Дисплей <IoMdClose className="nav_items_button_cancel" />
+              </h1>
+              <h1 className="nav_items-button">
+                Дисплей <IoMdClose className="nav_items_button_cancel" />
+              </h1>
+              <h1 className="nav_items-button">
+                Батарея <IoMdClose className="nav_items_button_cancel" />
+              </h1>
             </div>
           </div>
           <div className="phone_infos">
@@ -421,12 +424,6 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <button className="left_arrow arrow">
-              <FaChevronLeft />
-            </button>
-            <button className="right_arrow arrow">
-              <FaChevronRight />
-            </button>
           </div>
         </div>
       </div>
