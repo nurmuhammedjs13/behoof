@@ -163,6 +163,41 @@ function NewProduct() {
                 </div>
               </div>
             </ul>
+            <ul className="newProduct__cards__card">
+              <li className="newProduct__cards__card-img">
+                <img src={img1} alt="" />
+              </li>
+              <li className="newProduct__cards__card-text">
+                object(Умные часы)
+              </li>
+              <li className="newProduct__cards__card-product">
+                object(Apple iPhone 13 Pro Max 256 ГБ серый)
+              </li>
+              <div className="newProduct__cards__card__info">
+                <li className="newProduct__cards__card__info-price">1100$</li>
+                <div className="newProduct__cards__card__info__icons">
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox4"
+                    checked={isHeart4}
+                    onChange={() => setHeart4((prev) => !prev)}
+                  />
+                  <label
+                    htmlFor="iconsCheckbox4"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+                  <Link
+                    to={"/differences"}
+                    className="newProduct__cards__card__info__icons-img"
+                  >
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
       </div>
