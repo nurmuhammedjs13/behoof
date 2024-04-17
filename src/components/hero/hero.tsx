@@ -10,7 +10,6 @@ import accessories from "../../assets/accessories.png";
 
 import { BsHeart } from "react-icons/bs";
 import { VscGraph } from "react-icons/vsc";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 function Hero() {
     return (
