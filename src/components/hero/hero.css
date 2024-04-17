@@ -6,14 +6,13 @@
 
 .hero {
   padding: 40px 0;
-}
+background: #f2f5f9;}
 
 .hero__content {
   max-width: 1440px;
   max-height: 272px;
-} */
-
-a {
+}
+*/ a {
   text-decoration: none;
 }
 
