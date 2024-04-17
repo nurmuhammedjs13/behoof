@@ -5,12 +5,10 @@ import Differences from "../../assets/chart.png";
 import Profile from "../../assets/frame.png";
 import "./phonePanel.css";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../../store/store";
+import { useDispatch } from "react-redux";
 import { toggleShow } from "../../store/slices/category";
 
 function PhonePanel() {
-    const toShow = useSelector((state: RootState) => state.categories.show);
 
     const dispatch = useDispatch();
 

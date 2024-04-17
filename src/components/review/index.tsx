@@ -1,4 +1,3 @@
-import React from "react";
 import Review from "../reviewItem";
 import "./style.css";
 
