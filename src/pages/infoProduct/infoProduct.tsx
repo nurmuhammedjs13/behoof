@@ -36,7 +36,7 @@ function InfoProduct() {
             <div className="hero1__content_block">
               <div className="hero1_content_inside">
                 <div className="hero1__img">
-                  <img className="hero11__img1" src={Apple2} alt="" />
+                  <img className="hero1__img1" src={Apple2} alt="" />
                 </div>
 
                 <div className="hero1__cards">
@@ -105,7 +105,7 @@ function InfoProduct() {
                     <h1>Apple iPhone 13 Pro Max 256 ГБ серый</h1>
                   </div>
                   <div className="hero1__points">
-                    <div className="hero1__point">
+                    <div className="hero1__point2">
                       <span>4.4 Оценка экспертов</span>
                     </div>
                     <div className="hero1__point">

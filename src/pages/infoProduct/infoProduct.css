@@ -231,6 +231,20 @@
   border-radius: 12px;
   background: rgb(246, 247, 250);
 }
+.hero1__point2 {
+  display: flex;
+  align-items: center;
+  color: rgb(126, 135, 148);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: solid rgb(253, 253, 253);
+  border-radius: 12px;
+  background: rgb(246, 247, 250);
+}
 
 .hero1__point span {
   color: #30d170;
@@ -616,76 +630,6 @@
   display: none;
 }
 
-@media screen and (max-width: 1024px) {
-  .hero1__content {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .hero1__subtitle {
-    border-radius: 12px;
-    padding: 12px;
-  }
-
-  .hero1__content_block {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .hero1__subjest-title,
-  .hero1__subjest-title2 {
-    font-size: 14px;
-  }
-
-  .hero1__img2 {
-    width: 100px;
-  }
-
-  .hero1__cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero1__subjest-info {
-    font-size: 14px;
-  }
-
-  .hero1_price {
-    font-size: 20px;
-  }
-
-  .hero1__point_star_hidden {
-    display: flex;
-    font-size: 16px;
-    color: #ff4d4d;
-  }
-
-  .hero1_button_nav {
-    font-size: 14px;
-  }
-
-  .hero1_buttons {
-    flex-direction: column;
-  }
-
-  .hero1_buttons .hero1_button {
-    padding: 12px 16px;
-  }
-
-  .hero1_chart_middle {
-    grid-template-columns: 1fr;
-  }
-
-  .hero1_chart_top_texts {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .hero1_chart_top_status {
-    margin-block: 16px;
-  }
-}
-
 .hero1_price_color_divs {
   gap: 8px;
 }
@@ -719,4 +663,81 @@
   gap: 8px;
   border-radius: 8px;
   flex-grow: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero1__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero1__subtitle {
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .hero1__content_block {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero1__subjest-title,
+  .hero1__subjest-title2 {
+    font-size: 14px;
+  }
+
+  .hero1__img2 {
+    max-width: 100px;
+  }
+  .hero1__img1 {
+    max-width: 400px;
+  }
+
+  .hero1__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero1__subjest-info {
+    font-size: 14px;
+  }
+
+  .hero1_price {
+    font-size: 20px;
+  }
+
+  .hero1__point2 {
+    display: none;
+  }
+
+  .hero1__point_star_hidden {
+    display: flex;
+    font-size: 16px;
+    color: #ff4d4d;
+  }
+
+  .hero1_button_nav {
+    font-size: 14px;
+  }
+
+  .hero1_buttons {
+    flex-direction: column;
+  }
+
+  .hero1_buttons .hero1_button {
+    padding: 12px 16px;
+  }
+
+  .hero1_chart_middle {
+    grid-template-columns: 1fr;
+  }
+
+  .hero1_chart_top_texts {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero1_chart_top_status {
+    margin-block: 16px;
+  }
 }
