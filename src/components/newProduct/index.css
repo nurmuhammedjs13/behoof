@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 li {
   list-style: none;
@@ -24,13 +25,13 @@ li {
   max-width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin: 0 0 50px;
 }
 .newProduct__cards__card {
   padding: 8px;
-  max-width: 270px;
-  height: 340px;
+  max-width: 260px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   background: rgba(246, 247, 250, 1);
@@ -94,6 +95,39 @@ li {
   border: 1px solid rgba(242, 245, 249, 1);
 }
 
+.icons-checkbox:checked + .icons-checkbox-label {
+  background-color: white; /* белый фон */
+  color: red; /* синий текст */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 10px;
+  opacity: 0px;
+  border: 1px solid rgba(242, 245, 249, 1);
+}
+
+.icons-checkbox {
+  display: none;
+}
+
+.icons-checkbox-label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: red; /* синий цвет */
+  border-radius: 50%; /* круглый */
+  cursor: pointer;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  color: white; /* белый текст */
+}
+
 @media screen and (max-width: 1100px) {
   .newProduct__cards__card {
     max-width: 200px;
@@ -116,22 +150,18 @@ li {
 @media screen and (max-width: 870px) {
   .newProduct__cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .newProduct__cards__card {
-    max-width: 300px;
-    height: 340px;
+    max-width: 260px;
+    height: 320px;
     margin: 10px 0;
   }
 }
 @media screen and (max-width: 710px) {
-  .newProduct__cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
   .newProduct__cards__card {
-    max-width: 300px;
-    height: 340px;
+    max-width: 250px;
+    height: 310px;
     margin: 10px 0;
   }
 }

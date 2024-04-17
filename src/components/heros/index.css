@@ -4,6 +4,7 @@
 }
 
 .heros-logo {
+  padding:20px 0;
   margin: 0;
   padding-bottom: 50px;
   font-size: 24px;
@@ -24,6 +25,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .heros__cards__card {
+  padding: 0 15px;
   max-width: 336px;
   height: 140px;
   gap: 4px;
