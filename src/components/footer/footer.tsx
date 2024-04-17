@@ -64,7 +64,7 @@ function Footer() {
             <div className="footer__cards__card1">
               <h3 className="footer__card1-logo">Команда Behoof</h3>
 
-              <a className="footer__cards__card1-text" href={"/pageNot"}>
+              <a className="footer__cards__card1-text" href={"/aboutUs"}>
                 О нас
               </a>
               <a className="footer__cards__card1-text" href={"/pageNot"}>
