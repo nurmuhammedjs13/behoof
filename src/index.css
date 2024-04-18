@@ -7,7 +7,7 @@ body {
 .container {
   max-width: 1380px;
   margin: 0 auto;
-  padding-inline: 32px;
+  padding-inline: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -18,8 +18,16 @@ body {
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 p {
   text-decoration: none;
   margin: 0;
+}
+@media screen and (max-width: 375px) {
+  .container {
+    margin: 0;
+    padding: 0 30px;
+  }
 }

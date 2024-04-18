@@ -4,6 +4,7 @@ import trash from "../../assets/differences_trash.png";
 import hearticon from "../../assets/heart.png";
 import Iphoneicon from "../../assets/Apple.png";
 
+
 function Favorites() {
     return (
         <>
@@ -12,7 +13,7 @@ function Favorites() {
                 <div className="container">
                     <div className="favorites_content">
                         <div className="differences_obj_products">
-                            <button className="differences_obj_product">
+                            <div className="differences_obj_product">
                                 <div className="differences_obj_product_img">
                                     <img src={Iphoneicon} alt="" />
                                     <button className="differences_obj_product_img-trash_button">
@@ -43,7 +44,7 @@ function Favorites() {
                                         </button>
                                     </div>
                                 </div>
-                            </button>
+                            </div>
                             <button className="differences_obj_product">
                                 <div className="differences_obj_product_img">
                                     <img src={Iphoneicon} alt="" />

@@ -1,0 +1,56 @@
+.page {
+  background: url(https://st3.depositphotos.com/1001201/16753/i/1600/depositphotos_167530740-stock-photo-running-businessman-with-laptop.jpg);
+  opacity: 1;
+  max-width: 1920px;
+  height: 520px;
+}
+.page__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  height: 500px;
+  top: 253px;
+  left: 654px;
+  gap: 50px;
+  opacity: 0px;
+}
+.page__cards-logo {
+  margin: 0;
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 100px;
+  text-align: center;
+  color: rgba(15, 17, 19, 1);
+}
+.page__cards-tekst {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(38, 49, 65, 1);
+}
+.page__cards-text {
+  font-size: 24px;
+  font-weight: 450;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(38, 49, 65, 1);
+}
+.page__cards-but {
+  display: flex;
+  align-items: center;
+  max-width: 230px;
+  height: 60px;
+  padding: 15px 15px;
+  gap: 8px;
+  border-radius: 8px 8px;
+  opacity: 0px;
+  background: rgba(255, 77, 77, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,57 @@
+.aboutUs__content {
+  max-width: 100%;
+  height: 300px;
+}
+.aboutUs__content-logo {
+  color: brown;
+  font-size: 15px;
+}
+.aboutUs__content-hr {
+  height: 3px;
+  background: orange;
+  margin: 10px 0;
+}
+.aboutUs__content-text {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background: brown;
+  border-radius: 10px;
+  max-width: 100%;
+  height: 200px;
+  font-size: 50px;
+  color: #ffff;
+}
+.aboutUs__cards-logo {
+  font-size: 35px;
+  color: brown;
+}
+.aboutUs__cards-text {
+  margin: 15px 0;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.aboutUs__cards-tekst {
+  margin: 15px 0;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: brown;
+}
+.aboutUs__cards-li {
+  margin: 15px 0;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: brown;
+}

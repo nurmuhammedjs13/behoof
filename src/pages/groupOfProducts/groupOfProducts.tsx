@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./groupOfProducts.css";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
@@ -275,9 +275,12 @@ function GroupOfProducts() {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className="groupOfProducts_content_objects_object_characteristics_button">
+                                    <Link
+                                        to={'/infofProduct'}
+                                        className="groupOfProducts_content_objects_object_characteristics_button"
+                                    >
                                         Перейти к товару
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="groupOfProducts_content_objects_object">

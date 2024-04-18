@@ -6,6 +6,11 @@
     color: #0f1113;
     margin: 20px 0;
 }
+
+.reviewpage{
+    padding: 20px 0;
+}
+
 .card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
