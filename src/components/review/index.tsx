@@ -1,4 +1,3 @@
-import React from "react";
 import Review from "../reviewItem";
 import "./style.css";
 
@@ -15,17 +14,7 @@ function ReviewPage() {
                 <Review />
                 <Review />
                 <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
-                <Review />
+                <Review />               
             </div>
             <div className="btnToCenter">
                 <button className="seeMore">Показать еще</button>
