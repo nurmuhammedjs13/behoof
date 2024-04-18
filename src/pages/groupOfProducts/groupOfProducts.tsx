@@ -44,7 +44,6 @@ function GroupOfProducts() {
                                         <h1 className="groupOfProducts_content_search_fillter_price_selections-text">
                                             Диапазон
                                         </h1>
-                                        {/* <input type="checkbox" id="myCheckbox" name="myCheckbox"> */}
 
                                         <div className="groupOfProducts_content_search_fillter_price_selections_block">
                                             <div className="">
@@ -276,7 +275,7 @@ function GroupOfProducts() {
                                         </div>
                                     </div>
                                     <Link
-                                        to={'/infofProduct'}
+                                        to={"/infofProduct"}
                                         className="groupOfProducts_content_objects_object_characteristics_button"
                                     >
                                         Перейти к товару
@@ -411,9 +410,12 @@ function GroupOfProducts() {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className="groupOfProducts_content_objects_object_characteristics_button">
+                                    <Link
+                                        to={"/infofProduct"}
+                                        className="groupOfProducts_content_objects_object_characteristics_button"
+                                    >
                                         Перейти к товару
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="groupOfProducts_content_objects_object">
@@ -544,9 +546,12 @@ function GroupOfProducts() {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className="groupOfProducts_content_objects_object_characteristics_button">
+                                    <Link
+                                        to={"/infofProduct"}
+                                        className="groupOfProducts_content_objects_object_characteristics_button"
+                                    >
                                         Перейти к товару
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
