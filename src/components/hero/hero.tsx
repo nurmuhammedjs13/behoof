@@ -15,7 +15,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <div className="hero__content">
+        <div className="hero__content1">
           <h2 className="hero__logo-text">Лучший выбор</h2>
           <div className="Cards">
             <div className="Card">
@@ -71,24 +71,30 @@ function Hero() {
         <div className="phones_section">
           <div className="phone_navbar">
             <div className="nav_items">
-              <h1 className="nav_items-button orange">
-                Дизайн <IoMdClose className="nav_items_button_cancel " />
-              </h1>
-              <h1 className="nav_items-button orange">
-                Камера <IoMdClose className="nav_items_button_cancel " />
-              </h1>
-              <h1 className="nav_items-button">
-                Ответ <IoMdClose className="nav_items_button_cancel" />
-              </h1>
-              <h1 className="nav_items-button">
-                Дисплей <IoMdClose className="nav_items_button_cancel" />
-              </h1>
-              <h1 className="nav_items-button">
-                Дисплей <IoMdClose className="nav_items_button_cancel" />
-              </h1>
-              <h1 className="nav_items-button">
-                Батарея <IoMdClose className="nav_items_button_cancel" />
-              </h1>
+              <div className="nav_item">
+                <p>Дизайн</p>
+                <span className="nav_items_icons">
+                  <IoMdClose />
+                </span>
+              </div>
+              <div className="nav_item">
+                <p>Портативность</p>
+                <span className="nav_items_icons">
+                  <IoMdClose />
+                </span>
+              </div>
+            </div>
+            <div className="nav_item">
+              <>Камера</>
+            </div>
+            <div className="nav_item">
+              <>Ответ</>
+            </div>
+            <div className="nav_item">
+              <>Дисплей</>
+            </div>
+            <div className="nav_item">
+              <>Батарея</>
             </div>
           </div>
           <div className="phone_infos">

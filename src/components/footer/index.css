@@ -82,20 +82,25 @@
 }
 
 @media screen and (max-width: 375px) {
-  .footer__cards {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-@media screen and (max-width: 375px) {
-  .footer__cards__card1 {
-    padding: 20px 0 30px;
-  }
-}
-@media screen and (max-width: 375px) {
   .footer {
     height: 1250px;
     background: rgba(242, 245, 249, 1);
     border-radius: 16px;
+  }
+  .footer__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer__cards__card1 {
+    padding: 20px 20px;
+    margin: 20px 0;
+  }
+  .footer__cards__card {
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .footer__cards__card1-text {
+    font-size: 12px;
   }
 }

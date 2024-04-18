@@ -8,10 +8,10 @@ import heart from "../../assets/heart.png";
 import differences from "../../assets/chart.png";
 
 function GroupOfProducts() {
-    const [isChecked1, setIsChecked1] = useState(true);
-    const [isChecked2, setIsChecked2] = useState(true);
-    const [isChecked3, setIsChecked3] = useState(true);
-    const [isChecked4, setIsChecked4] = useState(true);
+  const [isChecked1, setIsChecked1] = useState(true);
+  const [isChecked2, setIsChecked2] = useState(true);
+  const [isChecked3, setIsChecked3] = useState(true);
+  const [isChecked4, setIsChecked4] = useState(true);
 
     return (
         <>
