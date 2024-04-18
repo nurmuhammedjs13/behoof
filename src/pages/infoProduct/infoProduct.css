@@ -1,5 +1,6 @@
 .hero1__img1 {
   width: 700px;
+  border-radius: 34%;
 }
 
 .hero1_button_nav {
@@ -53,10 +54,6 @@
   align-items: center;
   background: #f6f7fa;
   border-radius: 12px;
-}
-
-.hero1__img1 {
-  border-radius: 36%;
 }
 
 .hero1__img .left_arrow,
