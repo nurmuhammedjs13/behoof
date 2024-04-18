@@ -4,19 +4,17 @@ import Hero from "../../components/hero/hero";
 import Header_content from "../../components/header_content/header_content";
 import NewProduct from "../../components/newProduct/newProduct";
 import Heros from "../../components/heros/heros";
-// import PageNot from "../pageNot/pageNot";
-
 
 function Home() {
-  return (
-    <>
-      <Header />
-      <Header_content />
-      <Hero />
-      <Heros />
-      <NewProduct />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header />
+            <Header_content />
+            <Hero />
+            <Heros />
+            <NewProduct />
+            <Footer />
+        </>
+    );
 }
 export default Home;

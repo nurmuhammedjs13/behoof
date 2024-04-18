@@ -171,7 +171,7 @@ li {
     grid-template-columns: 1fr;
   }
   .newProduct__cards__card {
-    max-width: 300px;
+    max-width: 370px;
     height: 340px;
     margin: 10px 0 0;
   }
