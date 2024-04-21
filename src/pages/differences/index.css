@@ -242,8 +242,13 @@
 .differences_obj_title_products-button:hover {
   color: red;
 }
-
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1200px) {
+  .differences_obj_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 915px) {
   .differences__cards-logo {
     font-size: 15px;
   }
@@ -259,6 +264,13 @@
   }
   .differences__cards__card__title {
     height: 40px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .differences_obj_products {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 400px) {
