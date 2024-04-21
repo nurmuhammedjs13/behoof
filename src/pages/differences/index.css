@@ -1,319 +1,303 @@
 .differences_content_title {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 .differences_content_title_nav-previev {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
-    color: #a1abb9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #a1abb9;
 }
 
 .differences_content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .differences_content_title_nav-current {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: left;
-    color: #0f1113;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #0f1113;
 }
 
 .differences_content_title_nav {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .differences_content_title_text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .differences_content_title_text-text {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 58px;
-    text-align: left;
-    margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  margin: 0;
 }
 
 .differences_content_title_text-button {
-    border: none;
-    background: none;
-    text-align: center;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+  border: none;
+  background: none;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 .differences_content_title_text-button:hover {
-    border: 1px solid rgb(248, 3, 3);
-    border-radius: 10px;
-    color: red;
+  border: 1px solid rgb(248, 3, 3);
+  border-radius: 10px;
+  color: red;
 }
 
 .differences__cards {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .differences__cards-logo {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    text-align: left;
-    color: rgba(15, 17, 19, 1);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(15, 17, 19, 1);
 }
 .differences__cards__card {
-    max-width: 100%;
+  max-width: 100%;
 }
 .differences__cards__card-logo {
-    padding: 0 0 0 10px;
-    background: rgba(246, 247, 250, 1);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    margin: 0;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
-    color: rgba(38, 49, 65, 1);
+  padding: 0 0 0 10px;
+  background: rgba(246, 247, 250, 1);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(38, 49, 65, 1);
 }
 .differences__cards__card__title {
-    max-width: 100%;
-    height: 60px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 100%;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .differences__cards__card__title-obj {
-    padding: 0 0 0 15px;
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    color: rgba(126, 135, 148, 1);
+  padding: 0 0 0 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(126, 135, 148, 1);
 }
 .differences_obj {
-    border: 2px solid #f2f5f9;
-    border-radius: 10px;
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    padding: 20px;
+  border: 2px solid #f2f5f9;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .differences_obj_title {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
 }
 
 .differences_obj_title_products {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    border: 1px solid #f2f5f9;
-    padding: 10px;
-    background: #f2f5f9;
-    border-radius: 10px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  border: 1px solid #f2f5f9;
+  padding: 10px;
+  background: #f2f5f9;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .differences_obj_product {
-    border: 2px solid #e7e7e7;
-    background: rgb(253, 253, 253);
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 20px;
+  border: 2px solid #e7e7e7;
+  background: rgb(253, 253, 253);
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .differences_obj_product_info_price {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .differences_obj_product_info_price_block {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .differences_obj_product_info_price_button {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 .differences_obj_product_info_price_button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .differences_obj_product_info_hero-title {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #7e8794;
-    text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #7e8794;
+  text-align: left;
 }
 
 .differences_obj_product_info_price_block-count {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
-    line-height: 24px;
-    text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 24px;
+  text-align: left;
 }
 
 .differences_obj_product_info_price_block-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    margin: 0;
-    color: #7e8794;
-    text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  color: #7e8794;
+  text-align: left;
 }
 
 .differences_obj_product_info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .differences_obj_product_info_hero-product {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 
 .differences_obj_product_img {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .differences_obj_products {
-    display: grid;
-    gap: 20px;
-    padding: 20px 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  gap: 20px;
+  padding: 20px 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .differences_obj_product_img-trash_button {
-    padding: 20px;
-    border: none;
-    background: transparent;
+  padding: 20px;
+  border: none;
+  background: transparent;
 }
 
 .differences_obj_product_img-trash_button:hover {
-    border: 1px solid red;
-    border-radius: 10px;
-    cursor: pointer;
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .differences_obj_title_products:hover {
-    color: orange;
+  color: orange;
 }
 
 .differences_obj_title_products-button {
-    border: none;
-    background: transparent;
-    font-size: 20px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
 }
 
 .differences_obj_title_products-button:hover {
-    color: red;
+  color: red;
+}
+@media screen and (max-width: 1200px) {
+  .differences_obj_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 915px) {
+  .differences__cards-logo {
+    font-size: 15px;
+  }
+  .differences_obj_products {
+    grid-template-columns: 1fr 1fr;
+  }
+  .differences__cards__card-logo {
+    font-size: 13px;
+    height: 35px;
+  }
+  .differences__cards__card__title-obj {
+    font-size: 12px;
+  }
+  .differences__cards__card__title {
+    height: 40px;
+  }
 }
 
-@media screen and (max-width: 840px) {
-    .differences__cards-logo {
-        font-size: 15px;
-    }
-    .differences_obj_products {
-        grid-template-columns: 1fr 1fr;
-    }
-    .differences__cards__card-logo {
-        font-size: 13px;
-        height: 35px;
-    }
-    .differences__cards__card__title-obj {
-        font-size: 12px;
-    }
-    .differences__cards__card__title {
-        height: 40px;
-    }
+@media screen and (max-width: 640px) {
+  .differences_obj_products {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 400px) {
-    .differences__cards-logo {
-        font-size: 12px;
-    }
-    .differences__cards__card-logo {
-        font-size: 9px;
-        height: 25px;
-    }
-    .differences__cards__card__title-obj {
-        font-size: 8%;
-    }
-    .differences__cards__card__title {
-        height: 20px;
-    }
-}
-@media screen and (max-width: 375px) {
-    .header_info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .differences_obj_products {
-        grid-template-columns: 1fr;
-    }
-
-    .header_nav {
-        visibility: hidden;
-    }
-    .header_center_info_search_catalog {
-        visibility: hidden;
-        box-sizing: none;
-        display: none;
-    }
-    .header_content_info {
-        flex-direction: column;
-    }
-    .header_logo_content {
-        flex-direction: column;
-    }
-    .header_center_info_search_content-input {
-        padding: 10px 40px;
-        border-radius: 10px;
-    }
-    .header_center_info_search_content-input {
-        width: 150px; /* новая ширина для маленьких экранов */
-    }
-    .differences_content_title_text {
-        flex-direction: column;
-    }
-    .differences_content_title_nav {
-        display: none;
-        visibility: hidden;
-        block-size: none;
-        box-sizing: none;
-    }
+  .differences__cards {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .differences_content_title_text {
+    flex-direction: column;
+  }
+  .differences_obj_products {
+    grid-template-columns: 1fr;
+  }
+  .differences_content_title_text {
+    flex-direction: column;
+  }
+  .differences_content_title_nav {
+    display: none;
+    visibility: hidden;
+    block-size: none;
+    box-sizing: none;
+  }
+  .differences_content_title_text-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
 }

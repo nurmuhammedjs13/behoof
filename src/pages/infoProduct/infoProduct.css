@@ -2,11 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #f6f7fa;
+  border-radius: 10px;
 }
 
 .hero1__img1 {
   max-width: 700px;
-  background: #f6f7fa;
+  border-radius: 34%;
 }
 
 .hero1_button_nav {
@@ -612,7 +614,12 @@
 .hero1__point_star_hidden {
   display: none;
 }
-
+@media screen and (max-width: 1240px) {
+  .hero1__content_block {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 1024px) {
   .hero1__content {
     grid-template-columns: 1fr;
