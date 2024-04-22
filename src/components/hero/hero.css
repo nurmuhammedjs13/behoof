@@ -261,7 +261,7 @@
   color: #ff4d4d;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 840px) {
   .phone_infos {
     margin-top: 20px;
     display: grid;
@@ -270,7 +270,32 @@
     position: relative;
   }
 }
+@media screen and (max-width: 1020px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 @media screen and (max-width: 375px) {
+  .phone_info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+    position: relative;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 580px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 430px) {
   .Cards {
     display: grid;
     grid-template-columns: 1fr 1fr;

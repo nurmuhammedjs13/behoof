@@ -182,13 +182,13 @@
   padding: 0 0 20px 0;
   grid-template-rows: 1fr 1fr 1fr;
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
   .groupOfProducts_content_objects_object {
     display: flex;
     flex-direction: column;
   }
-
+}
+@media screen and (max-width: 375px) {
   .groupOfProducts_content_objects_object_info_advantage_info_block2 {
     display: none;
     visibility: hidden;

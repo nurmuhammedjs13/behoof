@@ -614,7 +614,12 @@
 .hero1__point_star_hidden {
   display: none;
 }
-
+@media screen and (max-width: 1240px) {
+  .hero1__content_block {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 @media screen and (max-width: 1024px) {
   .hero1__content {
     grid-template-columns: 1fr;
