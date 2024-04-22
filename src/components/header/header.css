@@ -164,3 +164,7 @@
     flex-direction: column;
   }
 }
+.ww{
+  display: flex;
+  justify-content: space-between;
+}
