@@ -9,6 +9,7 @@ function Header_content() {
 
   function toShows() {
     dispatch(toggleShow());
+    console.log("work");
   }
 
   return (
