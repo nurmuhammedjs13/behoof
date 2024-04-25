@@ -9,6 +9,7 @@ function NewProduct() {
   const [isHeart2, setHeart2] = useState(true);
   const [isHeart3, setHeart3] = useState(true);
   const [isHeart4, setHeart4] = useState(true);
+  const [isHeart5, setHeart5] = useState(true);
 
   return (
     <>
@@ -25,11 +26,9 @@ function NewProduct() {
               <li className="newProduct__cards__card-img">
                 <img src={img1} alt="" />
               </li>
-              <li className="newProduct__cards__card-text">
-                object(Умные часы)
-              </li>
+              <li className="newProduct__cards__card-text">Умные часы</li>
               <li className="newProduct__cards__card-product">
-                object(Apple iPhone 13 Pro Max 256 ГБ серый)
+                Apple iPhone 13 Pro Max 256 ГБ серый
               </li>
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
@@ -61,11 +60,9 @@ function NewProduct() {
               <li className="newProduct__cards__card-img">
                 <img src={img1} alt="" />
               </li>
-              <li className="newProduct__cards__card-text">
-                object(Умные часы)
-              </li>
+              <li className="newProduct__cards__card-text">Умные часы</li>
               <li className="newProduct__cards__card-product">
-                object(Apple iPhone 13 Pro Max 256 ГБ серый)
+                Apple iPhone 13 Pro Max 256 ГБ серый
               </li>
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
@@ -97,11 +94,9 @@ function NewProduct() {
               <li className="newProduct__cards__card-img">
                 <img src={img1} alt="" />
               </li>
-              <li className="newProduct__cards__card-text">
-                object(Умные часы)
-              </li>
+              <li className="newProduct__cards__card-text">Умные часы</li>
               <li className="newProduct__cards__card-product">
-                object(Apple iPhone 13 Pro Max 256 ГБ серый)
+                Apple iPhone 13 Pro Max 256 ГБ серый
               </li>
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
@@ -132,11 +127,9 @@ function NewProduct() {
               <li className="newProduct__cards__card-img">
                 <img src={img1} alt="" />
               </li>
-              <li className="newProduct__cards__card-text">
-                object(Умные часы)
-              </li>
+              <li className="newProduct__cards__card-text">Умные часы</li>
               <li className="newProduct__cards__card-product">
-                object(Apple iPhone 13 Pro Max 256 ГБ серый)
+                Apple iPhone 13 Pro Max 256 ГБ серый
               </li>
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
@@ -167,11 +160,9 @@ function NewProduct() {
               <li className="newProduct__cards__card-img">
                 <img src={img1} alt="" />
               </li>
-              <li className="newProduct__cards__card-text">
-                object(Умные часы)
-              </li>
+              <li className="newProduct__cards__card-text">Умные часы</li>
               <li className="newProduct__cards__card-product">
-                object(Apple iPhone 13 Pro Max 256 ГБ серый)
+                Apple iPhone 13 Pro Max 256 ГБ серый
               </li>
               <div className="newProduct__cards__card__info">
                 <li className="newProduct__cards__card__info-price">1100$</li>
@@ -179,12 +170,12 @@ function NewProduct() {
                   <input
                     className="icons-checkbox"
                     type="checkbox"
-                    id="iconsCheckbox4"
-                    checked={isHeart4}
-                    onChange={() => setHeart4((prev) => !prev)}
+                    id="iconsCheckbox5"
+                    checked={isHeart5}
+                    onChange={() => setHeart5((prev) => !prev)}
                   />
                   <label
-                    htmlFor="iconsCheckbox4"
+                    htmlFor="iconsCheckbox5"
                     className="icons-checkbox-label"
                   >
                     ♡

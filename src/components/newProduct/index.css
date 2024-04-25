@@ -30,15 +30,15 @@ li {
   margin: 0 0 50px;
 }
 .newProduct__cards__card {
-  padding: 8px;
-  max-width: 260px;
-  height: 320px;
+  padding: 15px;
+  max-width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background: rgba(246, 247, 250, 1);
   border: 1px solid rgba(242, 245, 249, 1);
   border-radius: 10px;
-  margin: 0;
+  margin: 15px 8px;
 }
 .newProduct__cards__card-img {
   display: flex;
@@ -96,6 +96,20 @@ li {
   border: 1px solid rgba(242, 245, 249, 1);
 }
 
+.newProduct__cards__card__info__icons-img:hover {
+  background: #e7ecf1;
+  border: 2px solid #ff4d4d;
+  cursor: pointer;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+}
+
+.low {
+  border-radius: 0 0 10px 10px;
+}
+
 .icons-checkbox:checked + .icons-checkbox-label {
   background-color: white; /* белый фон */
   color: red; /* синий текст */
@@ -116,8 +130,8 @@ li {
 
 .icons-checkbox-label {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   background-color: red; /* синий цвет */
   border-radius: 50%; /* круглый */
   cursor: pointer;
@@ -135,46 +149,20 @@ li {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .newProduct__cards__card {
-    height: 270px;
+    height: 350px;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 880px) {
   .newProduct__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
-  .newProduct__cards__card-text {
-    font-size: 10px;
-  }
-  .newProduct__cards__card-product {
-    font-size: 15px;
-  }
-  .newProduct__cards__card__info-price {
-    font-size: 15px;
-  }
-  .newProduct__cards__card-img {
-    max-width: 180px;
-    height: 120px;
-  }
 }
-@media screen and (max-width: 835px) {
-  .newProduct__cards__card {
-    max-width: 260px;
-    height: 320px;
-    margin: 10px 0;
-  }
+@media screen and (max-width: 680px) {
   .newProduct__cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (max-width: 710px) {
-  .newProduct__cards__card {
-    max-width: 250px;
-    height: 310px;
-    margin: 10px 0;
   }
 }
 
@@ -185,20 +173,19 @@ li {
   }
   .newProduct__cards__card {
     max-width: 370px;
-    height: 340px;
-    margin: 10px 0 0;
+    height: 300;
   }
   .newProduct__cards__card-text {
-    font-size: 8px;
+    font-size: 15px;
   }
   .newProduct__cards__card-product {
-    font-size: 12px;
+    font-size: 20px;
   }
   .newProduct__cards__card__info-price {
-    font-size: 12px;
+    font-size: 20px;
   }
   .newProduct__cards__card-img {
-    max-width: 235px;
-    height: 170px;
+    max-width: 100%;
+    height: 100%;
   }
 }
