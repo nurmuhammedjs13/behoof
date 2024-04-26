@@ -11,6 +11,26 @@
   font-size: 35px;
   letter-spacing: 1px;
 }
+
+.profile-click:hover {
+  color: #ff4d4d;
+  background: #e7ecf1;
+  border-left: 3px solid #ff4d4d;
+  cursor: pointer;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+}
+
+.low {
+  border-radius: 0 0 10px 10px;
+}
+
+.profile {
+  padding: 20px 0;
+}
+
 .profile__cards__card__title-text {
   color: rgba(161, 171, 185, 1);
   letter-spacing: 2px;
@@ -36,22 +56,20 @@
   gap: 50px;
 }
 .profile__cards__card__icons-but {
-  max-width: 100px;
-  height: 50px;
+  cursor: pointer;
   border-radius: 15px;
+  padding: 10px 40px;
   font-size: 20px;
   color: whitesmoke;
-  background: darkorchid;
-  margin: 0 0 15px;
+  background: #ff4d4d;
 }
 .profile__cards__card__icons-but2 {
-  max-width: 150px;
-  height: 50px;
+  padding: 10px 40px;
   border-radius: 15px;
   font-size: 20px;
+  cursor: pointer;
   color: black;
   background: azure;
-  margin: 0 0 15px;
 }
 .profile-img {
   max-width: 300px;

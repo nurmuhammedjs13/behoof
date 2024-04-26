@@ -104,6 +104,22 @@
   visibility: hidden;
   position: absolute;
 }
+
+.header_nav-button:hover {
+  color: #ff4d4d;
+  background: #e7ecf1;
+  border-left: 3px solid #ff4d4d;
+  cursor: pointer;
+}
+
+.top {
+  border-radius: 15px 20px 0 0;
+}
+
+.low {
+  border-radius: 0 0 15px 20px;
+}
+
 @media screen and (max-width: 1300px) {
   .header_center_info_search_content-input {
     max-width: 300px;
@@ -206,4 +222,8 @@
   .header_logo_content {
     flex-direction: column;
   }
+}
+.ww {
+  display: flex;
+  justify-content: space-between;
 }

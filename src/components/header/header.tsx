@@ -9,7 +9,7 @@ import DropDown from "../DropDown/DropDown";
 
 function Header() {
   return (
-    <section>
+    <>
       <section className="header">
         <div className="container">
           <div className="header_content">
@@ -69,7 +69,7 @@ function Header() {
       <div className="phonePanel_section">
         <PhonePanel />
       </div>
-    </section>
+    </>
   );
 }
 export default Header;

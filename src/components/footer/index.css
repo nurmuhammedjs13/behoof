@@ -62,6 +62,22 @@
   color: rgba(38, 49, 65, 1);
   text-decoration: none;
 }
+
+.footer__cards__card1-text:hover {
+  color: #ff4d4d;
+  background: #e7ecf1;
+  border-left: 3px solid #ff4d4d;
+  cursor: pointer;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+}
+
+.low {
+  border-radius: 0 0 10px 10px;
+}
+
 .footer-tekst {
   margin: 0;
   font-size: 16px;
@@ -79,6 +95,21 @@
   opacity: 0px;
   color: rgba(126, 135, 148, 1);
 }
+.footer__cards__info__icons-img:hover {
+  color: #ff4d4d;
+  background: #e7ecf1;
+  border-top: 3px solid #ff4d4d;
+  cursor: pointer;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+}
+
+.low {
+  border-radius: 0 0 10px 10px;
+}
+
 @media screen and (max-width: 840px) {
   .footer {
     background: rgba(242, 245, 249, 1);
