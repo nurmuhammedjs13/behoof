@@ -237,9 +237,10 @@
   color: #a1abb9;
 }
 
-.nav_item {
+.nav__item {
   background: #fdfdfd;
   display: flex;
+  align-items: center;
   gap: 8px;
   border: 1px solid #f2f5f9;
   border-radius: 8px;
@@ -248,7 +249,7 @@
   color: #7e8794;
 }
 
-.nav_item p {
+.nav__item p {
   background: #fdfdfd;
   border-radius: 5px;
   display: flex;

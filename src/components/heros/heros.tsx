@@ -57,14 +57,20 @@ function Heros() {
                 <div className="warrior__card__icons">
                   <div className="warrior__card__icons__icon">
                     <img className="warrior-imgg" src={google} alt="" />
-                    <a href="" className="warrior__card__icons__icon-text">
+                    <a
+                      href="https://play.google.com/store/games?hl=ru&gl=US"
+                      className="warrior__card__icons__icon-text"
+                    >
                       Доступно в <br />
                       Google Play
                     </a>
                   </div>
                   <div className="warrior__card__icons__icon">
                     <img className="warrior-imgg" src={group} alt="" />
-                    <a href="" className="warrior__card__icons__icon-text">
+                    <a
+                      href="https://apps.apple.com/ru/app/название приложения/id 1494877615."
+                      className="warrior__card__icons__icon-text"
+                    >
                       Загрузите <br />
                       App Store
                     </a>

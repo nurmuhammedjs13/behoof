@@ -37,10 +37,12 @@
 }
 .profile__cards__card__title-input {
   width: 500px;
-  height: 30px;
+  height: 40px;
   border-radius: 5px;
   margin: 7px 0;
   background: whitesmoke;
+  padding: 10px;
+  font-size: 15px;
 }
 .profile__cards__card__title-hr {
   margin: 0;

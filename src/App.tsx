@@ -7,27 +7,6 @@ import GroupOfProducts from "./pages/groupOfProducts/groupOfProducts";
 import InfoOfProfuct from "./pages/infoProduct/infoProduct";
 import PageNot from "./pages/pageNot/pageNot";
 import AboutUs from "./pages/aboutUs/aboutUs";
-// import { useState } from "react";
-
-// const [data, setData] = useState({
-//   img: "",
-//   type: "",
-//   model: "",
-//   price: "1222",
-//   storage: "ha",
-//   color: "red",
-//   description: "ha",
-//   battery: "ha",
-//   display: "oled",
-//   camera: "12-ha",
-//   answer: "ha",
-//   design: "ha",
-//   portabl: "ha",
-// });
-// function objectInfo() {
-
-// }
-// console.log();
 
 const router = createBrowserRouter([
   {

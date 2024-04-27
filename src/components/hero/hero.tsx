@@ -71,29 +71,29 @@ function Hero() {
         <div className="phones_section">
           <div className="phone_navbar">
             <div className="nav_items">
-              <div className="nav_item">
+              <div className="nav__item">
                 <p>Дизайн</p>
                 <span className="nav_items_icons">
                   <IoMdClose />
                 </span>
               </div>
-              <div className="nav_item">
+              <div className="nav__item">
                 <p>Портативность</p>
                 <span className="nav_items_icons">
                   <IoMdClose />
                 </span>
               </div>
             </div>
-            <div className="nav_item">
+            <label className="nav__item">
               <>Камера</>
-            </div>
-            <div className="nav_item">
+            </label>
+            <div className="nav__item">
               <>Ответ</>
             </div>
-            <div className="nav_item">
+            <div className="nav__item">
               <>Дисплей</>
             </div>
-            <div className="nav_item">
+            <div className="nav__item">
               <>Батарея</>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Hero() {
                 </div>
                 <div className="phone_info_icons">
                   <span>
-                    <BsHeart />
+                    <BsHeart className="" />
                   </span>
                   <span>
                     <VscGraph />

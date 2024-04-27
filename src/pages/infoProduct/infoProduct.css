@@ -11,6 +11,10 @@
   border-radius: 34%;
 }
 
+.hero1_button_icon-link {
+  color: #ff4d4d;
+}
+
 .hero1_button_nav {
   color: white;
 }
@@ -37,11 +41,19 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.hero1_chart_link-click {
+  color: #ff4d4d;
+}
+
 .hero1__subjest {
   position: relative;
   display: flex;
   gap: 15px;
   margin-top: 24px;
+}
+
+.hero1_chart_link-icons {
+  color: #ff4d4d;
 }
 
 .hero1__subjest-title,
@@ -54,7 +66,7 @@
 }
 
 .hero1__subjest-title {
-  color: #a1abb9;
+  color: #ff4d4d;
 }
 
 .hero1__subjest-title2 {
@@ -785,5 +797,8 @@
   .hero1__content_block {
     display: flex;
     flex-direction: column;
+  }
+  .hero1__subjest {
+    margin: 0;
   }
 }

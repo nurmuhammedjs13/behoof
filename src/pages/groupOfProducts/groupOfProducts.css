@@ -189,6 +189,9 @@
   }
 }
 @media screen and (max-width: 375px) {
+  .groupOfProducts_content_search {
+    padding: 0 10px 20px;
+  }
   .groupOfProducts_content_objects_object_info_advantage_info_block2 {
     display: none;
     visibility: hidden;

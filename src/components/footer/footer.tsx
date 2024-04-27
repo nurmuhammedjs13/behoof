@@ -18,19 +18,34 @@ function Footer() {
               <div className="footer__cards__info">
                 <p className="footer__cards__info-logo">Мы в соц сетях</p>
                 <div className="footer__cards__info__icons">
-                  <NavLink to={""} className="footer__cards__info__icons-img">
+                  <NavLink
+                    to={"https://vk.com/feed"}
+                    className="footer__cards__info__icons-img"
+                  >
                     <img src={vk} alt="#" />
                   </NavLink>
-                  <NavLink to={""} className="footer__cards__info__icons-img">
+                  <NavLink
+                    to={"https://www.tiktok.com/"}
+                    className="footer__cards__info__icons-img"
+                  >
                     <img src={tt} alt="#" />
                   </NavLink>
-                  <NavLink to={""} className="footer__cards__info__icons-img">
+                  <NavLink
+                    to={"https://www.instagram.com/"}
+                    className="footer__cards__info__icons-img"
+                  >
                     <img src={insta} alt="#" />
                   </NavLink>
-                  <NavLink to={""} className="footer__cards__info__icons-img">
+                  <NavLink
+                    to={"https://web.telegram.org/k/"}
+                    className="footer__cards__info__icons-img"
+                  >
                     <img src={tg} alt="#" />
                   </NavLink>
-                  <NavLink to={""} className="footer__cards__info__icons-img">
+                  <NavLink
+                    to={"https://www.youtube.com/"}
+                    className="footer__cards__info__icons-img"
+                  >
                     <img src={yt} alt="#" />
                   </NavLink>
                 </div>

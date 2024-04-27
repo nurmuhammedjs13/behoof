@@ -85,9 +85,16 @@
 }
 
 @media screen and (max-width: 375px) {
+  .header_info_left_block {
+    padding: 0 20px 20px;
+  }
+  .header_info_right_block {
+    padding: 0 20px 20px;
+  }
   .header_info {
     display: flex;
     flex-direction: column;
+    padding: 0 0 30px;
   }
   .header_center_info_search_content-input {
     padding: 10px 40px;
@@ -96,7 +103,6 @@
 
   .header_info__left_block-text {
     flex-direction: column;
-    /* margin: 0 0 10px; */
   }
   .header_info__right_block-text {
     flex-direction: column;
