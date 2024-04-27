@@ -70,10 +70,10 @@ function NewItems() {
                     <input
                       className="icons-checkbox"
                       type="checkbox"
-                      id="iconsCheckbox1"
+                      id="iconsCheckbox2"
                     />
                     <label
-                      htmlFor="iconsCheckbox1"
+                      htmlFor="iconsCheckbox2"
                       className="icons-checkbox-label"
                     >
                       ♡
@@ -108,10 +108,10 @@ function NewItems() {
                     <input
                       className="icons-checkbox"
                       type="checkbox"
-                      id="iconsCheckbox1"
+                      id="iconsCheckbox3"
                     />
                     <label
-                      htmlFor="iconsCheckbox1"
+                      htmlFor="iconsCheckbox3"
                       className="icons-checkbox-label"
                     >
                       ♡
@@ -146,10 +146,10 @@ function NewItems() {
                     <input
                       className="icons-checkbox"
                       type="checkbox"
-                      id="iconsCheckbox1"
+                      id="iconsCheckbox4"
                     />
                     <label
-                      htmlFor="iconsCheckbox1"
+                      htmlFor="iconsCheckbox4"
                       className="icons-checkbox-label"
                     >
                       ♡
@@ -184,10 +184,10 @@ function NewItems() {
                     <input
                       className="icons-checkbox"
                       type="checkbox"
-                      id="iconsCheckbox1"
+                      id="iconsCheckbox5"
                     />
                     <label
-                      htmlFor="iconsCheckbox1"
+                      htmlFor="iconsCheckbox5"
                       className="icons-checkbox-label"
                     >
                       ♡

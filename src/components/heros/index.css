@@ -41,20 +41,17 @@
   text-align: left;
 }
 .warrior {
-  max-width: 1440px;
+  max-width: 1380px;
   height: 453px;
-  top: 1952px;
-  left: 240px;
-  gap: 10px;
-  border-radius: 16px 0px 0px 0px;
+  border-radius: 10px;
   opacity: 0px;
 }
 .warrior__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: rgba(246, 247, 250, 1);
   padding: 50px 50px 0;
   border-radius: 16px;
+  background: url(https://cojo.ru/wp-content/uploads/2022/12/krasno-belyi-fon-4.webp);
 }
 .warrior__cards__card {
   gap: 20px;
@@ -120,15 +117,18 @@
 }
 
 @media screen and (max-width: 1100px) {
+  .warrior__cards {
+    padding: 20px 20px 0;
+  }
   .warrior-img {
-    max-width: 250px;
-    height: 200px;
+    max-width: 257px;
+    height: 217px;
     position: absolute;
     opacity: 1;
   }
   .warrior-img1 {
-    max-width: 330px;
-    height: 170px;
+    max-width: 337px;
+    height: 187px;
     opacity: 1;
   }
   .warrior__card-text {
@@ -142,15 +142,11 @@
   .warrior__cards__card {
     display: flex;
     flex-direction: column;
-    padding: 10px 15px;
+    padding: 10px 15px 0;
     gap: 8px;
   }
 }
 @media screen and (max-width: 870px) {
-  .warrior {
-    background: rgba(242, 245, 249, 1);
-    border-radius: 8px;
-  }
   .container {
     height: 100%;
     margin: 0;
@@ -159,12 +155,11 @@
   .warrior__cards {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 20px;
   }
   .warrior__cards__card {
     display: flex;
     flex-direction: column;
-    padding: 10px 15px;
+    padding: 10px 15px 0;
   }
   .warrior-img1 {
     padding-left: 30px;
@@ -185,6 +180,10 @@
   }
   .heros__cards__card {
     height: 150px;
+    padding-bottom: 0;
+  }
+  .warrior__card__icons__icon {
+    padding: 3px;
   }
 }
 
@@ -218,7 +217,7 @@
   .warrior__cards {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 10px;
+    padding: 10px 10px 0;
   }
   .warrior__cards__card {
     display: flex;
@@ -234,13 +233,13 @@
   }
   .warrior-img {
     max-width: 150px;
-    height: 150px;
+    height: 155px;
     padding-left: 20px;
     margin: 40px 0 0;
   }
   .warrior-img1 {
     width: 200px;
-    height: 120px;
+    height: 125px;
     padding-left: 20px;
     margin: 70px 0 0;
   }
