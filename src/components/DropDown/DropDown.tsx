@@ -44,53 +44,53 @@ const DropDown: React.FC<Props> = () => {
                   Смартфоны
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button">
+                <Link to={"/pageNot"} className="categories_content_info-button">
                   Ноутбуки
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button">
+                <Link to={"pageNot"} className="categories_content_info-button">
                   Планшеты
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button low">
+                <Link to={"pageNot"} className="categories_content_info-button low">
                   Умные часы
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
               </div>
               <div className="categories_content_info_block2">
                 {" "}
-                <Link to={""} className="categories_content_info-button top">
+                <Link to={"pageNot"} className="categories_content_info-button top">
                   Игровые приставки{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button">
+                <Link to={"pageNot"} className="categories_content_info-button">
                   Наушники{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button">
+                <Link to={"pageNot"} className="categories_content_info-button">
                   Портативные колонки{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button low">
+                <Link to={"pageNot"} className="categories_content_info-button low">
                   Мониторы{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
               </div>
               <div className="categories_content_info_block3">
                 {" "}
-                <Link to={""} className="categories_content_info-button top">
+                <Link to={"pageNot"} className="categories_content_info-button top">
                   Принтеры и сканеры{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button">
+                <Link to={"pageNot"} className="categories_content_info-button">
                   Планшеты и электронные книги{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button">
+                <Link to={"pageNot"} className="categories_content_info-button">
                   Корпуса и блоки питания{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>
-                <Link to={""} className="categories_content_info-button low">
+                <Link to={"pageNot"} className="categories_content_info-button low">
                   аксессуары{" "}
                   <h1 className="categories_content_info-button-icon">»</h1>
                 </Link>

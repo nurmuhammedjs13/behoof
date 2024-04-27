@@ -7,6 +7,7 @@ import GroupOfProducts from "./pages/groupOfProducts/groupOfProducts";
 import InfoOfProfuct from "./pages/infoProduct/infoProduct";
 import PageNot from "./pages/pageNot/pageNot";
 import AboutUs from "./pages/aboutUs/aboutUs";
+import NewItems from "./pages/newItems/newItems";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutUs",
     element: <AboutUs />,
+  },
+  {
+    path: "/newItems",
+    element: <NewItems />,
   },
 ]);
 

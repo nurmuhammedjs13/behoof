@@ -17,7 +17,7 @@ function NewProduct() {
         <div className="container">
           <div className="newProduct__content">
             <h3 className="newProduct__content-log">Новинки</h3>
-            <Link to={"/"} className="newProduct__content-newProduct">
+            <Link to={"/newItems"} className="newProduct__content-newProduct">
               К новинкам ➜
             </Link>
           </div>
