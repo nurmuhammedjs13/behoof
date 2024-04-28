@@ -9,40 +9,41 @@ import PageNot from "./pages/pageNot/pageNot";
 import AboutUs from "./pages/aboutUs/aboutUs";
 import InfoProduct from "./pages/infoProduct/infoProduct";
 import NewItems from "./pages/newItems/newItems";
+import Layout from "./components/Layout/Layout";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/profile",
-    element: <Profile />,
-  },
-  {
-    path: "/differences",
-    element: <Differences />,
-  },
-  {
-    path: "/favorites",
-    element: <Favorites />,
-  },
-  {
-    path: "/groupOfProducts",
-    element: <GroupOfProducts />,
-  },
-  {
-    path: "/infofProduct",
-    element: <InfoOfProfuct />,
-  },
-  {
-    path: "/pageNot",
-    element: <PageNot />,
-  },
-  {
-    path: "/aboutUs",
-    element: <AboutUs />,
-  },
+    {
+        path: "/",
+        element: <Home />,
+    },
+    {
+        path: "/profile",
+        element: <Profile />,
+    },
+    {
+        path: "/differences",
+        element: <Differences />,
+    },
+    {
+        path: "/favorites",
+        element: <Favorites />,
+    },
+    {
+        path: "/groupOfProducts",
+        element: <GroupOfProducts />,
+    },
+    {
+        path: "/infofProduct",
+        element: <InfoOfProfuct />,
+    },
+    {
+        path: "/pageNot",
+        element: <PageNot />,
+    },
+    {
+        path: "/aboutUs",
+        element: <AboutUs />,
+    },
   {
     path: "/hero",
     element: <InfoProduct />,
@@ -53,14 +54,12 @@ const router = createBrowserRouter([
   },
 ]);
 
-// const [show, setShow] = useState(true);
-
 function App() {
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
+    return (
+        <Layout>
+            <RouterProvider router={router} />
+        </Layout>
+    );
 }
 
 export default App;
