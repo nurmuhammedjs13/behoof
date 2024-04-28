@@ -8,6 +8,9 @@ import headphones from "../../assets/headphones.png";
 import columns from "../../assets/columns.png";
 import accessories from "../../assets/accessories.png";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
+import HeaderButtonChart from "../../assets/chart.png";
+
 function Hero() {
   return (
     <section className="hero">
@@ -102,12 +105,20 @@ function Hero() {
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart className="" />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox1"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox1"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -185,12 +196,20 @@ function Hero() {
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox2"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox2"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -268,12 +287,20 @@ function Hero() {
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox3"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox3"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -351,12 +378,21 @@ function Hero() {
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox4"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox4"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">

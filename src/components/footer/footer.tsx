@@ -5,7 +5,7 @@ import tg from "../../assets/TG.png";
 import yt from "../../assets/YT.png";
 import logo from "../../assets/logos.png";
 import "../../components/footer/index.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -14,7 +14,9 @@ function Footer() {
         <div className="container">
           <div className="footer__cards">
             <div className="footer__cards__card">
-              <img src={logo} alt="" />
+              <Link to={"/"}>
+                <img src={logo} alt="" />
+              </Link>
               <div className="footer__cards__info">
                 <p className="footer__cards__info-logo">Мы в соц сетях</p>
                 <div className="footer__cards__info__icons">
