@@ -114,7 +114,6 @@ function Profile() {
               </div>
               <div className="profile__cards__card__title">
                 <p className="profile__cards__card__title-text">
-                  {" "}
                   Подтвердите еще раз
                 </p>
                 <input

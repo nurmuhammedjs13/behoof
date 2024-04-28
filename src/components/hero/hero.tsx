@@ -7,9 +7,6 @@ import consoles from "../../assets/consoles.png";
 import headphones from "../../assets/headphones.png";
 import columns from "../../assets/columns.png";
 import accessories from "../../assets/accessories.png";
-
-import { BsHeart } from "react-icons/bs";
-import { VscGraph } from "react-icons/vsc";
 import { IoMdClose } from "react-icons/io";
 function Hero() {
   return (

@@ -46,7 +46,6 @@ function NewProduct() {
                   >
                     ♡
                   </label>
-
                   <Link
                     to={"/differences"}
                     className="newProduct__cards__card__info__icons-img"
