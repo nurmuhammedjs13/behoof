@@ -48,6 +48,7 @@ background: #f2f5f9;}
   object-fit: cover;
 }
 
+
 .card_text {
   flex-direction: column;
   font-weight: 600;
@@ -78,6 +79,7 @@ background: #f2f5f9;}
   padding: 20px;
   border: 1px solid rgb(242, 245, 249);
   border-radius: 12px;
+  text-decoration: none;
   background: rgb(253, 253, 253);
   display: flex;
   flex-direction: column;

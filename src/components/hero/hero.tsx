@@ -11,6 +11,7 @@ import accessories from "../../assets/accessories.png";
 import { BsHeart } from "react-icons/bs";
 import { VscGraph } from "react-icons/vsc";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section className="hero">
@@ -19,10 +20,10 @@ function Hero() {
           <h2 className="hero__logo-text">Лучший выбор</h2>
           <div className="Cards">
             <div className="Card">
-              <div>
+              <Link className="card_apple" to={"/hero"}>
                 <img src={Apple} alt="" />
-              </div>
-              <h3 className="card_text">Смартфоны</h3>
+                <h3 className="card_text">Смартфоны</h3>
+              </Link>
             </div>
             <div className="Card">
               <div>
@@ -98,7 +99,7 @@ function Hero() {
             </div>
           </div>
           <div className="phone_infos">
-            <div className="phone_info">
+            <Link to={"/hero"} className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
@@ -180,8 +181,8 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="phone_info">
+            </Link>
+            <Link to={"/hero"} className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
@@ -263,8 +264,8 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="phone_info">
+            </Link>
+            <Link to={"/hero"} className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
@@ -346,8 +347,8 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="phone_info">
+            </Link>
+            <Link to={"/hero"} className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
@@ -429,7 +430,7 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -20,7 +20,15 @@ import { FaAngleRight } from "react-icons/fa6";
 import { FaStarHalfStroke } from "react-icons/fa6";
 import Comment from "../../components/review/index";
 import { Link } from "react-router-dom";
+import { IoIosArrowUp } from "react-icons/io";
+
+import { useState } from "react";
 function InfoProduct() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
   return (
     <>
       <Header />
@@ -69,12 +77,45 @@ function InfoProduct() {
                     </div>
                   </div>
                   <div className="hero1__subjest_info">
-                    <div className="hero1__subjest_info-text">
-                      Полный список характеристик
-                      <span>
-                        <GrDown />
-                      </span>
-                    </div>
+                    {isDropdownOpen ? (
+                      <div className="dropdown-content">
+                        <div className="factory-data">Заводские данные</div>
+                        <div className="dropdown-content_item">
+                          <p className="left">Тип</p>
+                          <p className="right-align">Смартфон</p>
+                        </div>
+                        <hr />
+                        <div className="dropdown-content_item">
+                          <p className="left">Модель</p>
+                          <p className="right-align">Apple iPhone 13</p>
+                        </div>
+                        <hr />
+                        <div className="dropdown-content_item">
+                          <p className="left">Год релиза</p>
+                          <p className="right-align">2021</p>
+                        </div>
+                        <hr />
+                        <div
+                          className="collapse-button"
+                          onClick={toggleDropdown}
+                        >
+                          Свернуть
+                          <span>
+                            <IoIosArrowUp />
+                          </span>
+                        </div>
+                      </div>
+                    ) : (
+                      <div
+                        className="hero1__subjest_info-text"
+                        onClick={toggleDropdown}
+                      >
+                        Полный список характеристик
+                        <span>
+                          <GrDown />
+                        </span>
+                      </div>
+                    )}
                   </div>
                 </div>
                 <div className="hero1__subjest-text">
