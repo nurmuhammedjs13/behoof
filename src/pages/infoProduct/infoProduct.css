@@ -5,6 +5,69 @@
   background: #f6f7fa;
   border-radius: 10px;
 }
+.collapse-button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff4d4d;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.collapse-button span {
+  display: flex;
+}
+
+.factory-data {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #263141;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.dropdown-content {
+  border-bottom: 1px solid #eceeef;
+  padding: 16px 0px;
+}
+
+.dropdown-content_item {
+  width: 670px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.dropdown-content_item p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.left {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #7e8794;
+  margin: 10px;
+}
+
+.right-align {
+  text-align: right;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #121416;
+}
 
 .hero1__img1 {
   max-width: 700px;

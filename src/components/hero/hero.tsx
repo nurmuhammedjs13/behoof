@@ -116,6 +116,7 @@ function Hero() {
                   >
                     ♡
                   </label>
+
                   <Link to={"/differences"} className="phone_info_icons-img">
                     <img src={HeaderButtonChart} alt="" />
                   </Link>
@@ -199,14 +200,15 @@ function Hero() {
                   <input
                     className="icons-checkbox"
                     type="checkbox"
-                    id="iconsCheckbox2"
+                    id="iconsCheckbox1"
                   />
                   <label
-                    htmlFor="iconsCheckbox2"
+                    htmlFor="iconsCheckbox1"
                     className="icons-checkbox-label"
                   >
                     ♡
                   </label>
+
                   <Link to={"/differences"} className="phone_info_icons-img">
                     <img src={HeaderButtonChart} alt="" />
                   </Link>
@@ -290,14 +292,15 @@ function Hero() {
                   <input
                     className="icons-checkbox"
                     type="checkbox"
-                    id="iconsCheckbox3"
+                    id="iconsCheckbox1"
                   />
                   <label
-                    htmlFor="iconsCheckbox3"
+                    htmlFor="iconsCheckbox1"
                     className="icons-checkbox-label"
                   >
                     ♡
                   </label>
+
                   <Link to={"/differences"} className="phone_info_icons-img">
                     <img src={HeaderButtonChart} alt="" />
                   </Link>
@@ -381,10 +384,10 @@ function Hero() {
                   <input
                     className="icons-checkbox"
                     type="checkbox"
-                    id="iconsCheckbox4"
+                    id="iconsCheckbox1"
                   />
                   <label
-                    htmlFor="iconsCheckbox4"
+                    htmlFor="iconsCheckbox1"
                     className="icons-checkbox-label"
                   >
                     ♡
