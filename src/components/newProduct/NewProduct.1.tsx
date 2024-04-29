@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import "../../components/newProduct/index.css";
 import HeaderButtonChart from "../../assets/chart.png";
 import img1 from "../../assets/2272131 1.png";
 import { useState } from "react";
 
-function NewProduct() {
+export function NewProduct() {
   const [isHeart, setHeart] = useState(true);
   const [isHeart2, setHeart2] = useState(true);
   const [isHeart3, setHeart3] = useState(true);
@@ -146,7 +145,6 @@ function NewProduct() {
                   >
                     ♡
                   </label>
-
                   <Link
                     to={"/differences"}
                     className="newProduct__cards__card__info__icons-img"
@@ -195,5 +193,3 @@ function NewProduct() {
     </>
   );
 }
-
-export default NewProduct;

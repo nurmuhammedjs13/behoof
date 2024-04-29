@@ -111,8 +111,8 @@ li {
 }
 
 .icons-checkbox:checked + .icons-checkbox-label {
-  background-color: white; /* белый фон */
-  color: red; /* синий текст */
+  background-color: white;
+  color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,8 +132,8 @@ li {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: red; /* синий цвет */
-  border-radius: 50%; /* круглый */
+  background-color: red;
+  border-radius: 50%;
   cursor: pointer;
   border: 1px solid red;
   display: flex;

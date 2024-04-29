@@ -7,11 +7,10 @@ import consoles from "../../assets/consoles.png";
 import headphones from "../../assets/headphones.png";
 import columns from "../../assets/columns.png";
 import accessories from "../../assets/accessories.png";
-
-import { BsHeart } from "react-icons/bs";
-import { VscGraph } from "react-icons/vsc";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
+import HeaderButtonChart from "../../assets/chart.png";
+
 function Hero() {
   return (
     <section className="hero">
@@ -20,10 +19,10 @@ function Hero() {
           <h2 className="hero__logo-text">Лучший выбор</h2>
           <div className="Cards">
             <div className="Card">
-              <Link className="card_apple" to={"/hero"}>
+              <div>
                 <img src={Apple} alt="" />
-                <h3 className="card_text">Смартфоны</h3>
-              </Link>
+              </div>
+              <h3 className="card_text">Смартфоны</h3>
             </div>
             <div className="Card">
               <div>
@@ -99,19 +98,28 @@ function Hero() {
             </div>
           </div>
           <div className="phone_infos">
-            <Link to={"/hero"} className="phone_info">
+            <div className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart className="" />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox1"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox1"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -181,20 +189,29 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link to={"/hero"} className="phone_info">
+            </div>
+            <div className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox1"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox1"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -264,20 +281,29 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link to={"/hero"} className="phone_info">
+            </div>
+            <div className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox1"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox1"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -347,20 +373,29 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link to={"/hero"} className="phone_info">
+            </div>
+            <div className="phone_info">
               <div className="phone_info_top">
                 <div>
                   <span>Портативные колонки </span>
                   <h2>Apple iPhone 13 Pro Max 256 ГБ серый</h2>
                 </div>
                 <div className="phone_info_icons">
-                  <span>
-                    <BsHeart />
-                  </span>
-                  <span>
-                    <VscGraph />
-                  </span>
+                  <input
+                    className="icons-checkbox"
+                    type="checkbox"
+                    id="iconsCheckbox1"
+                  />
+                  <label
+                    htmlFor="iconsCheckbox1"
+                    className="icons-checkbox-label"
+                  >
+                    ♡
+                  </label>
+
+                  <Link to={"/differences"} className="phone_info_icons-img">
+                    <img src={HeaderButtonChart} alt="" />
+                  </Link>
                 </div>
               </div>
               <div className="phone_info_bottom">
@@ -430,7 +465,7 @@ function Hero() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
       </div>
