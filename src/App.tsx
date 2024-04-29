@@ -8,42 +8,41 @@ import PageNot from "./pages/pageNot/pageNot";
 import AboutUs from "./pages/aboutUs/aboutUs";
 import InfoProduct from "./pages/infoProduct/infoProduct";
 import NewItems from "./pages/newItems/newItems";
-import NewItems from "./pages/newItems/newItems";
 import Layout from "./components/Layout/Layout";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/profile",
-        element: <Profile />,
-    },
-    {
-        path: "/differences",
-        element: <Differences />,
-    },
-    {
-        path: "/favorites",
-        element: <Favorites />,
-    },
-    {
-        path: "/groupOfProducts",
-        element: <GroupOfProducts />,
-    },
-    {
-        path: "/newItems",
-        element: <NewItems />,
-    },
-    {
-        path: "/pageNot",
-        element: <PageNot />,
-    },
-    {
-        path: "/aboutUs",
-        element: <AboutUs />,
-    },
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
+  },
+  {
+    path: "/differences",
+    element: <Differences />,
+  },
+  {
+    path: "/favorites",
+    element: <Favorites />,
+  },
+  {
+    path: "/groupOfProducts",
+    element: <GroupOfProducts />,
+  },
+  {
+    path: "/newItems",
+    element: <NewItems />,
+  },
+  {
+    path: "/pageNot",
+    element: <PageNot />,
+  },
+  {
+    path: "/aboutUs",
+    element: <AboutUs />,
+  },
   {
     path: "/hero",
     element: <InfoProduct />,
@@ -55,11 +54,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-    return (
-        <Layout>
-            <RouterProvider router={router} />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <RouterProvider router={router} />
+    </Layout>
+  );
 }
 
 export default App;
